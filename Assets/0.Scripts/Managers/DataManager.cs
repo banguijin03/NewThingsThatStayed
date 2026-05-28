@@ -44,7 +44,10 @@ public class DataManager : ManagerBase
 		loadString = "Load Pool Requests";
 		yield return LoadAllFromAssetBundle<PoolRequest>("Global", ProgressOnLoad).WaitForTask();
 
-		yield return null;
+        loadString = "Load Item";
+        yield return LoadAllFromAssetBundle<ItemContainer>("Global", ProgressOnLoad).WaitForTask();
+
+        yield return null;
 	}
 
 	protected override void OnDisconnected()

@@ -14,10 +14,12 @@ public class StatModule : CharacterModule
     public bool IsDead => HP.Current <= 0;
     public bool IsHungry => Hunger.Current <= 0;
     public bool IsThirst => Thirst.Current <= 0;
+    public bool IsPanic => Feeling.Current <= 0;
 
-    public bool IsPoison = false;
-    public bool IsRunning = false;
-    public bool IsBurn = false;
+    public AbnormalCondition IsPoison;  //
+    public AbnormalCondition IsRunning; //
+    public AbnormalCondition IsBurn;    //
+    public AbnormalCondition IsCold;    //
 
     bool deadTriggered = false;
 
@@ -67,6 +69,11 @@ public class StatModule : CharacterModule
             }
 
             if (IsBurn)
+            {
+                HP.DecreaseCurrent(1);
+            }
+
+            if (IsCold)
             {
                 HP.DecreaseCurrent(1);
             }
