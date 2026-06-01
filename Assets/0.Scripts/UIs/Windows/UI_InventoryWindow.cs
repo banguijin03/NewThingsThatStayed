@@ -23,7 +23,7 @@ public class UI_InventoryWindow : OpenableUIBase
 
     public void ConnectInventory(Inventory newInventory)
     {
-        if (!newInventory) return; 
+        if (!newInventory) return;
         targetInventory = newInventory; 
 
         if (!layout) return;
@@ -35,8 +35,8 @@ public class UI_InventoryWindow : OpenableUIBase
 
         foreach (ItemSlot currentSlot in newInventory.GetAllSlot())
         {
-            if (currentSlot is null) continue;
-                                              
+            if (currentSlot is null) continue; 
+                                            
             GameObject instance = ObjectManager.CreateObject(itemSlotPrefabName, layout.transform);
             if (!instance) continue; 
             if (instance.TryGetComponent(out UI_ItemSlotInfo createdSlot)) 
@@ -56,5 +56,11 @@ public class UI_InventoryWindow : OpenableUIBase
             targetChild.SetParent(null);
             ObjectManager.DestroyObject(targetChild.gameObject);
         }
+    }
+
+    private void Start()
+    {
+        targetInventory.Initialize();
+        ConnectInventory(targetInventory);
     }
 }

@@ -3,18 +3,19 @@ using UnityEngine;
 public enum ItemType
 {
     None,
-    Tool,           // 도구
-    Equipment,      // 의복
-    Gem,            // 보석
-    Mineral,        // 광물
-    Herb,           // 약초
-    Food,           // 요리
     Book,           // 책
-    Structure,      // 시설물
+    Equipment,      // 의복
+    Food,           // 요리
+    Gem,            // 보석
     Hallucinogen,   // 환각제
+    Herb,           // 약초
+    Mineral,        // 광물
     Record,         // 기록
-    Misc,            // 기타
+    Structure,      // 시설물
+    Tool,           // 도구
+    Misc,           // 기타
     Length
+        //등급: 가죽, 구리, 철, 은, 금, 백금, 미스릴, 오리하르콘, 아다만티움, 고대
 }
 
 /*public enum ItemType

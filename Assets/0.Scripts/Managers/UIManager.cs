@@ -8,7 +8,7 @@ public enum UIType
 {
 	None, Loading, Title, Option, Movable, InsideOption, Info, Inside, GameQuit, 
 	StatPage, InventoryPage, CharacterPage, MapPage, SavePage, SettingPage,
-	ItemHoverInfo, ItemClickInfo, ActionHoverInfo, ActionClickInfo,
+	ItemHoverInfo, ItemClickInfo, ActionHoverInfo, ActionClickInfo, 
     _Length
 }
 
@@ -26,16 +26,16 @@ public class UIManager : ManagerBase
 
 	readonly KeyValuePair<UIType, string>[] globalScreenArray =
 	{
-	new(UIType.Title, "TitleScreen"),
-	new(UIType.Option, "OptionScreen"),
-	new(UIType.Inside, "InsideScreen"),
-    new(UIType.InsideOption, "InsideOptionWindow"),
-	new(UIType.StatPage, "StatPage"),
-	new(UIType.CharacterPage, "CharacterPage"),
-	new(UIType.MapPage, "MapPage"),
-	new(UIType.SavePage, "SavePage"),
-	new(UIType.SettingPage, "SettingPage"),
-};
+	new(UIType.Title,			"TitleScreen"),
+	new(UIType.Option,			"OptionScreen"),
+	new(UIType.Inside,			"InsideScreen"),
+    new(UIType.InsideOption,	"InsideOptionWindow"),
+    new(UIType.InventoryPage,   "InventoryWindow"),
+	new(UIType.CharacterPage,	"CharacterWindow"),
+	new(UIType.MapPage,			"MapWindow"),
+	new(UIType.SavePage,		"SaveWindow"),
+	new(UIType.SettingPage,		"SettingWindow"),
+	};
 
 	Canvas _mainCanvas;
 	public Canvas MainCanvas => _mainCanvas;

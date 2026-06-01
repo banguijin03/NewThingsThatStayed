@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8df09f702b093d744a582a76240920ff, type: 3}
-  m_Name: Apple
+  m_Name: ProductionBook
   m_EditorClassIdentifier: Assembly-CSharp::ItemContainer
-  icon: {fileID: 1161201145128540330, guid: 25f4ed3a79276dc48a632bfc955f4e92, type: 3}
-  displayName: "\uC0AC\uACFC"
-  explain: "\uC694\uB9AC \uC7AC\uB8CC\uC785\uB2C8\uB2E4. \uADF8\uB0E5\uB3C4 \uBA39\uC744
-    \uC218 \uC788\uC744 \uAC83 \uAC19\uB124\uC694"
-  type: 6
-  maxStack: 5
-  weight: 5
+  icon: {fileID: 7422436841525656152, guid: d611d63f8e8a3a64f9a2cc1cec3eb2a2, type: 3}
+  displayName: "\uC81C\uC791\uC758 \uCC45"
+  explain: 
+  type: 7
+  maxStack: 0
+  weight: 0
