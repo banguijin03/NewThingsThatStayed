@@ -15,14 +15,14 @@ public enum ItemType
     Tool,           // 도구
     Misc,           // 기타
     Length
-        //등급: 가죽, 구리, 철, 은, 금, 백금, 미스릴, 오리하르콘, 아다만티움, 고대
+        //등급: 가죽/나무, 구리, 철, 은, 금, 백금, 미스릴, 오리하르콘, 아다만티움, 고대
 }
 
-/*public enum ItemType
-{
-    Equipment, Consumable, Material, Miscellaneous, Quest, Impotrtant, Resource,
-    Length
-}*/
+//public enum ItemType
+//{
+//    Equipment, Consumable, Material, Miscellaneous, Quest, Impotrtant, Resource,
+//    Length
+//}
 
 [CreateAssetMenu(fileName = "ItemContainer", menuName = "Item/ItemBase")]
 public class ItemContainer : InfoContainer

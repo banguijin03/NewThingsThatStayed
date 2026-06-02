@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df09f702b093d744a582a76240920ff, type: 3}
   m_Name: WoodAxe
   m_EditorClassIdentifier: Assembly-CSharp::ItemContainer
-  icon: {fileID: -5167413608083449488, guid: 37f7bd4595263f24bb18f79b6a30ed3e, type: 3}
-  displayName: 
+  icon: {fileID: -400564639, guid: 37f7bd4595263f24bb18f79b6a30ed3e, type: 3}
+  displayName: "\uB098\uBB34 \uB3C4\uB07C"
   explain: 
   type: 10
   maxStack: 0

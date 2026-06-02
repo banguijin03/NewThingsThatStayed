@@ -22,12 +22,17 @@ public class Inventory : MonoBehaviour
         }
     }
 
+
+    public void Edible(int amount)
+    {
+        ItemContainer eggfried = DataManager.LoadDataFile<ItemContainer>("EggFried");
+    }
+
     public void HealPotionPlus(int amount) 
     {
         ItemContainer potion = DataManager.LoadDataFile<ItemContainer>("LesserHealPotion");
         AddItem(potion, amount);
     }
-
     public void HealPotionMinus(int amount)
     {
         ItemContainer potion = DataManager.LoadDataFile<ItemContainer>("LesserHealPotion");
@@ -35,7 +40,6 @@ public class Inventory : MonoBehaviour
     }
     
     public bool IsEmpty(ItemSlot target) => target?.GetIsEmpty() ?? false;
-
 
     public void Sort(System.Comparison<ItemContainer> Method)
     {
@@ -46,7 +50,6 @@ public class Inventory : MonoBehaviour
     {
 
     }
-
     public void AutoQuickInsert(Inventory[] other)
     {
 
@@ -65,7 +68,6 @@ public class Inventory : MonoBehaviour
     {
 
     }
-
     public void UnlockSlot(int wantRow, int wantColumn)
     {
 
@@ -75,12 +77,12 @@ public class Inventory : MonoBehaviour
     {
         return default;
     }
-
     public int CountItem(ItemContainer wantItem, out List<ItemSlot> returnSlots)
     {
         returnSlots = default;
         return default;
     }
+
     public IEnumerable<ItemSlot> GetAllSlot()
     {
         int height = slots.GetLength(0);
@@ -124,6 +126,7 @@ public class Inventory : MonoBehaviour
             if (pred(currentSlot)) yield return currentSlot;
         }
     }
+
     public ItemSlot FindItem(ItemContainer target)
     {
 
@@ -157,7 +160,6 @@ public class Inventory : MonoBehaviour
         if (amount <= 0) return 0;
         return AddItemOnEmptySlots(wantItem, amount);
     }
-
     public int AddItemOnExistSlots(ItemContainer wantItem, int amount)
     {
         foreach (ItemSlot currentSlot in FindFirstItem(wantItem))
@@ -169,7 +171,6 @@ public class Inventory : MonoBehaviour
 
         return amount;
     }
-
     public int AddItemOnEmptySlots(ItemContainer wantItem, int amount)
     {
         foreach (ItemSlot currentSlot in FindFirstEmptySlot())
@@ -181,7 +182,6 @@ public class Inventory : MonoBehaviour
 
         return amount;
     }
-
     public int AddItemToLocation(ItemContainer wantItem, int amount, int row, int column)
     {
         return default;
@@ -198,7 +198,6 @@ public class Inventory : MonoBehaviour
     {
         return default;
     }
-    
     public int RemoveItem(ItemContainer wantItem)
     {
         int result = 0;
@@ -209,7 +208,6 @@ public class Inventory : MonoBehaviour
         }
         return result;
     }
-
     public int RemoveItem(ItemContainer wantItem, int amount)
     {
         ItemSlot[] targets = FindLastItem(wantItem).ToArray();
@@ -223,18 +221,14 @@ public class Inventory : MonoBehaviour
         }
         return amount;
     }
-
     public int RemoveItemOnExistSlots(ItemContainer wantItem, int amount)
     {
         return default;
     }
-
-
     public int RemoveItemFromLocation(int row, int column)
     {
         return default;
     }
-
     public int RemoveItemFromLocation(int row, int column, int amount)
     {
         return default;
@@ -249,7 +243,6 @@ public class Inventory : MonoBehaviour
     {
         return default;
     }
-
     public bool UseItem(int row, int column)
     {
         return default;
