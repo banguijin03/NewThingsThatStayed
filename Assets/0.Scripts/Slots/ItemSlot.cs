@@ -43,7 +43,6 @@ public class ItemSlot
         item = wantItem;
         int stackable = Mathf.Min(item.maxStack - currentStack, amount);
         currentStack += stackable;
-        Debug.Log($"{item.displayName}({currentStack})");
 
         return amount - stackable;
     }

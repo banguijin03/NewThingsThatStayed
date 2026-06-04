@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df09f702b093d744a582a76240920ff, type: 3}
   m_Name: Leggings
   m_EditorClassIdentifier: Assembly-CSharp::ItemContainer
-  icon: {fileID: 0}
+  icon: {fileID: 2033124622, guid: 37f7bd4595263f24bb18f79b6a30ed3e, type: 3}
   displayName: "\uAC00\uC8FD \uD558\uC758"
   explain: 
   type: 2

@@ -22,12 +22,6 @@ public class Inventory : MonoBehaviour
         }
     }
 
-
-    public void Edible(int amount)
-    {
-        ItemContainer eggfried = DataManager.LoadDataFile<ItemContainer>("EggFried");
-    }
-
     public void HealPotionPlus(int amount) 
     {
         ItemContainer potion = DataManager.LoadDataFile<ItemContainer>("LesserHealPotion");
