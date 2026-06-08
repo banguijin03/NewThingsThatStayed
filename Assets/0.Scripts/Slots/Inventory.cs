@@ -22,6 +22,14 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    public void CreateItem(string itemName, int amount = 1)
+    {
+        ItemContainer item = DataManager.LoadDataFile<ItemContainer>(itemName);
+
+        if (item == null) return;
+        AddItem(item, amount);
+    }
+
     public void HealPotionPlus(int amount) 
     {
         ItemContainer potion = DataManager.LoadDataFile<ItemContainer>("LesserHealPotion");
