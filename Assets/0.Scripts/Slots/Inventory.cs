@@ -22,13 +22,27 @@ public class Inventory : MonoBehaviour
         }
     }
 
+
     public void CreateItem(string itemName, int amount = 1)
     {
         ItemContainer item = DataManager.LoadDataFile<ItemContainer>(itemName);
 
-        if (item == null) return;
+        if (item == null)
+            return;
+
         AddItem(item, amount);
     }
+    //채집
+    public void Gather(ItemContainer item)
+    {
+        AddItem(item, 1);
+    }
+    //나무베기
+    public void ChopTree(ItemContainer wood, int amount = 1)
+    {
+        AddItem(wood, amount);
+    }
+
 
     public void HealPotionPlus(int amount) 
     {

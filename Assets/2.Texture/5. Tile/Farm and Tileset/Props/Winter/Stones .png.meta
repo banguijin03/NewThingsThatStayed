@@ -155,12 +155,12 @@ TextureImporter:
       name: Stones _0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 49
-        width: 27
-        height: 14
+        x: 0
+        y: 48
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -174,37 +174,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stones _1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 49
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b2cde34b06f00580800000000000000
-      internalID: -8862813538420407623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Stones _2
       rect:
         serializedVersion: 2
-        x: 50
-        y: 49
-        width: 27
-        height: 14
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,12 +199,12 @@ TextureImporter:
       name: Stones _3
       rect:
         serializedVersion: 2
-        x: 82
-        y: 49
-        width: 12
-        height: 12
+        x: 48
+        y: 48
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,37 +218,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stones _4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 31
-        width: 17
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bbaae6bd56ed2c1c0800000000000000
-      internalID: -4484777749853066565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Stones _5
       rect:
         serializedVersion: 2
-        x: 15
-        y: 15
-        width: 18
-        height: 17
+        x: 80
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,12 +243,12 @@ TextureImporter:
       name: Stones _6
       rect:
         serializedVersion: 2
-        x: 17
-        y: 31
+        x: 0
+        y: 32
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,12 +265,12 @@ TextureImporter:
       name: Stones _7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 31
-        width: 17
-        height: 14
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,12 +287,12 @@ TextureImporter:
       name: Stones _8
       rect:
         serializedVersion: 2
-        x: 63
-        y: 15
-        width: 18
+        x: 48
+        y: 32
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -353,12 +309,12 @@ TextureImporter:
       name: Stones _9
       rect:
         serializedVersion: 2
-        x: 65
-        y: 31
+        x: 64
+        y: 32
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -375,12 +331,12 @@ TextureImporter:
       name: Stones _10
       rect:
         serializedVersion: 2
-        x: 1
-        y: 18
-        width: 15
-        height: 10
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -397,12 +353,12 @@ TextureImporter:
       name: Stones _11
       rect:
         serializedVersion: 2
-        x: 49
-        y: 18
-        width: 15
-        height: 10
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -419,12 +375,12 @@ TextureImporter:
       name: Stones _12
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 24
-        height: 17
+        x: 48
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -441,12 +397,12 @@ TextureImporter:
       name: Stones _13
       rect:
         serializedVersion: 2
-        x: 52
-        y: 0
-        width: 24
-        height: 17
+        x: 64
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -459,11 +415,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Stones _14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f240bbf8b73b749af08def876eb0e9
+      internalID: -1469142604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stones _16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126d844ed162e9d4fbf2bf77edf1ae06
+      internalID: 739749085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d55a6cdfb4360f1448dc9cc121c2a8ba
     internalID: 0
     vertices: []
     indices: 
@@ -471,7 +471,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Stones _0: 4742624392395396034
       Stones _1: -8862813538420407623
@@ -479,6 +481,10 @@ TextureImporter:
       Stones _11: 3641147814501238185
       Stones _12: -794745321525848432
       Stones _13: 1050245890204724972
+      Stones _14: -1469142604
+      Stones _15: 1624128153
+      Stones _16: 739749085
+      Stones _17: 1725057827
       Stones _2: -4741400967194794154
       Stones _3: -7617649853784868461
       Stones _4: -4484777749853066565

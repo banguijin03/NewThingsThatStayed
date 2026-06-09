@@ -505,7 +505,7 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 128
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -517,28 +517,6 @@ TextureImporter:
       bones: []
       spriteID: 99e213643546eaf60800000000000000
       internalID: 8047479892980346521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea coral_10
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d49410ec15315fa60800000000000000
-      internalID: 7707087579383941453
       vertices: []
       indices: 
       edges: []
@@ -703,7 +681,7 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 112
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -715,28 +693,6 @@ TextureImporter:
       bones: []
       spriteID: e8459d779f0f71430800000000000000
       internalID: 3753733768684852366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea coral_19
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 446f84dd4283051d0800000000000000
-      internalID: -3364127190663236028
       vertices: []
       indices: 
       edges: []
@@ -879,7 +835,7 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 96
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -891,28 +847,6 @@ TextureImporter:
       bones: []
       spriteID: 5d354e133a57a6da0800000000000000
       internalID: -5950814613839522859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea coral_27
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: daec378077289b300800000000000000
-      internalID: 268389100559781549
       vertices: []
       indices: 
       edges: []
@@ -1055,7 +989,7 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 80
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1067,28 +1001,6 @@ TextureImporter:
       bones: []
       spriteID: 674fc603df79e8500800000000000000
       internalID: 400424530577519734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea coral_35
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4316f507e9815bae0800000000000000
-      internalID: -1534293029280587468
       vertices: []
       indices: 
       edges: []
@@ -1297,7 +1209,7 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 48
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1309,28 +1221,6 @@ TextureImporter:
       bones: []
       spriteID: 37df94bd134cc2820800000000000000
       internalID: 2894904378903887219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea coral_46
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a140e1de2aadbd20800000000000000
-      internalID: 3295977620371423648
       vertices: []
       indices: 
       edges: []
@@ -1495,7 +1385,7 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 32
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1507,28 +1397,6 @@ TextureImporter:
       bones: []
       spriteID: 26d5078ce64f331d0800000000000000
       internalID: -3372082939323982494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea coral_55
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e232fc98bd461e990800000000000000
-      internalID: -7358489422074010834
       vertices: []
       indices: 
       edges: []
@@ -1671,7 +1539,7 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 16
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1683,28 +1551,6 @@ TextureImporter:
       bones: []
       spriteID: 097646445c182f280800000000000000
       internalID: -9010997220158969968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea coral_63
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ecb228ca8f07f91c0800000000000000
-      internalID: -4494749689744053298
       vertices: []
       indices: 
       edges: []
@@ -1847,7 +1693,7 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 0
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1859,28 +1705,6 @@ TextureImporter:
       bones: []
       spriteID: 38fec774e9788f141ae3bf7fb792118d
       internalID: 248314639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea coral_71
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 150063f2dc74179459e30a2102d89578
-      internalID: -242461855
       vertices: []
       indices: 
       edges: []

@@ -125,12 +125,12 @@ TextureImporter:
       name: Shaders Winter_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 67
-        width: 57
-        height: 43
+        x: 0
+        y: 64
+        width: 72
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: Shaders Winter_1
       rect:
         serializedVersion: 2
-        x: 97
-        y: 80
-        width: 46
-        height: 31
+        x: 72
+        y: 64
+        width: 72
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -169,12 +169,12 @@ TextureImporter:
       name: Shaders Winter_2
       rect:
         serializedVersion: 2
-        x: 4
-        y: 19
-        width: 57
-        height: 43
+        x: 0
+        y: 0
+        width: 72
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: Shaders Winter_3
       rect:
         serializedVersion: 2
-        x: 97
-        y: 32
-        width: 46
-        height: 31
+        x: 72
+        y: 0
+        width: 72
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 83999b3ae24820b46bf33eff0f6de530
     internalID: 0
     vertices: []
     indices: 
@@ -221,7 +221,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":72.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Shaders Winter_0: -3403795804541091935
       Shaders Winter_1: 7255832696682516944

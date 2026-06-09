@@ -494,12 +494,12 @@ TextureImporter:
       name: stone with minerals_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 257
-        width: 13
-        height: 12
+        x: 0
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -516,12 +516,12 @@ TextureImporter:
       name: stone with minerals_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 257
-        width: 13
-        height: 12
+        x: 16
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -538,12 +538,12 @@ TextureImporter:
       name: stone with minerals_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 257
-        width: 13
-        height: 12
+        x: 32
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -560,12 +560,12 @@ TextureImporter:
       name: stone with minerals_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 257
-        width: 13
-        height: 12
+        x: 48
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -582,12 +582,12 @@ TextureImporter:
       name: stone with minerals_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 257
-        width: 13
-        height: 12
+        x: 64
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -604,12 +604,12 @@ TextureImporter:
       name: stone with minerals_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 257
-        width: 13
-        height: 12
+        x: 80
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -626,12 +626,12 @@ TextureImporter:
       name: stone with minerals_6
       rect:
         serializedVersion: 2
-        x: 97
-        y: 257
-        width: 13
-        height: 12
+        x: 96
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -648,12 +648,12 @@ TextureImporter:
       name: stone with minerals_7
       rect:
         serializedVersion: 2
-        x: 113
-        y: 257
-        width: 13
-        height: 12
+        x: 112
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -670,12 +670,12 @@ TextureImporter:
       name: stone with minerals_8
       rect:
         serializedVersion: 2
-        x: 129
-        y: 257
-        width: 13
-        height: 12
+        x: 128
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -692,12 +692,12 @@ TextureImporter:
       name: stone with minerals_9
       rect:
         serializedVersion: 2
-        x: 145
-        y: 257
-        width: 13
-        height: 12
+        x: 144
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -714,12 +714,12 @@ TextureImporter:
       name: stone with minerals_10
       rect:
         serializedVersion: 2
-        x: 161
-        y: 257
-        width: 13
-        height: 12
+        x: 160
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -736,12 +736,12 @@ TextureImporter:
       name: stone with minerals_11
       rect:
         serializedVersion: 2
-        x: 2
-        y: 241
-        width: 12
-        height: 11
+        x: 0
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -758,12 +758,12 @@ TextureImporter:
       name: stone with minerals_12
       rect:
         serializedVersion: 2
-        x: 18
-        y: 241
-        width: 12
-        height: 11
+        x: 16
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -780,12 +780,12 @@ TextureImporter:
       name: stone with minerals_13
       rect:
         serializedVersion: 2
-        x: 34
-        y: 241
-        width: 12
-        height: 11
+        x: 32
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -802,12 +802,12 @@ TextureImporter:
       name: stone with minerals_14
       rect:
         serializedVersion: 2
-        x: 50
-        y: 241
-        width: 12
-        height: 11
+        x: 48
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -824,12 +824,12 @@ TextureImporter:
       name: stone with minerals_15
       rect:
         serializedVersion: 2
-        x: 66
-        y: 241
-        width: 12
-        height: 11
+        x: 64
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -846,12 +846,12 @@ TextureImporter:
       name: stone with minerals_16
       rect:
         serializedVersion: 2
-        x: 82
-        y: 241
-        width: 12
-        height: 11
+        x: 80
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -868,12 +868,12 @@ TextureImporter:
       name: stone with minerals_17
       rect:
         serializedVersion: 2
-        x: 98
-        y: 241
-        width: 12
-        height: 11
+        x: 96
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -890,12 +890,12 @@ TextureImporter:
       name: stone with minerals_18
       rect:
         serializedVersion: 2
-        x: 114
-        y: 241
-        width: 12
-        height: 11
+        x: 112
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -912,12 +912,12 @@ TextureImporter:
       name: stone with minerals_19
       rect:
         serializedVersion: 2
-        x: 130
-        y: 241
-        width: 12
-        height: 11
+        x: 128
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -934,12 +934,12 @@ TextureImporter:
       name: stone with minerals_20
       rect:
         serializedVersion: 2
-        x: 146
-        y: 241
-        width: 12
-        height: 11
+        x: 144
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -956,12 +956,12 @@ TextureImporter:
       name: stone with minerals_21
       rect:
         serializedVersion: 2
-        x: 162
-        y: 241
-        width: 12
-        height: 11
+        x: 160
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -979,11 +979,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 207
-        width: 17
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1000,12 +1000,12 @@ TextureImporter:
       name: stone with minerals_23
       rect:
         serializedVersion: 2
-        x: 1
-        y: 223
-        width: 15
+        x: 16
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1022,12 +1022,12 @@ TextureImporter:
       name: stone with minerals_24
       rect:
         serializedVersion: 2
-        x: 16
-        y: 207
-        width: 17
+        x: 32
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1044,12 +1044,12 @@ TextureImporter:
       name: stone with minerals_25
       rect:
         serializedVersion: 2
-        x: 17
-        y: 223
-        width: 15
+        x: 48
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1066,12 +1066,12 @@ TextureImporter:
       name: stone with minerals_26
       rect:
         serializedVersion: 2
-        x: 32
-        y: 207
-        width: 17
+        x: 64
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1088,12 +1088,12 @@ TextureImporter:
       name: stone with minerals_27
       rect:
         serializedVersion: 2
-        x: 33
-        y: 223
-        width: 15
+        x: 80
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1110,12 +1110,12 @@ TextureImporter:
       name: stone with minerals_28
       rect:
         serializedVersion: 2
-        x: 48
-        y: 207
-        width: 17
+        x: 96
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1132,12 +1132,12 @@ TextureImporter:
       name: stone with minerals_29
       rect:
         serializedVersion: 2
-        x: 49
-        y: 223
-        width: 15
+        x: 112
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1154,12 +1154,12 @@ TextureImporter:
       name: stone with minerals_30
       rect:
         serializedVersion: 2
-        x: 64
-        y: 207
-        width: 17
+        x: 128
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1176,12 +1176,12 @@ TextureImporter:
       name: stone with minerals_31
       rect:
         serializedVersion: 2
-        x: 65
-        y: 223
-        width: 15
+        x: 144
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1198,12 +1198,12 @@ TextureImporter:
       name: stone with minerals_32
       rect:
         serializedVersion: 2
-        x: 80
-        y: 207
-        width: 17
+        x: 160
+        y: 224
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1220,12 +1220,12 @@ TextureImporter:
       name: stone with minerals_33
       rect:
         serializedVersion: 2
-        x: 81
-        y: 223
-        width: 15
+        x: 0
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1242,12 +1242,12 @@ TextureImporter:
       name: stone with minerals_34
       rect:
         serializedVersion: 2
-        x: 96
-        y: 207
-        width: 17
+        x: 16
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1264,12 +1264,12 @@ TextureImporter:
       name: stone with minerals_35
       rect:
         serializedVersion: 2
-        x: 97
-        y: 223
-        width: 15
+        x: 32
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1286,12 +1286,12 @@ TextureImporter:
       name: stone with minerals_36
       rect:
         serializedVersion: 2
-        x: 112
-        y: 207
-        width: 17
+        x: 48
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1308,12 +1308,12 @@ TextureImporter:
       name: stone with minerals_37
       rect:
         serializedVersion: 2
-        x: 113
-        y: 223
-        width: 15
+        x: 64
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1330,12 +1330,12 @@ TextureImporter:
       name: stone with minerals_38
       rect:
         serializedVersion: 2
-        x: 128
-        y: 207
-        width: 17
+        x: 80
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1352,12 +1352,12 @@ TextureImporter:
       name: stone with minerals_39
       rect:
         serializedVersion: 2
-        x: 129
-        y: 223
-        width: 15
+        x: 96
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1374,12 +1374,12 @@ TextureImporter:
       name: stone with minerals_40
       rect:
         serializedVersion: 2
-        x: 144
-        y: 207
-        width: 17
+        x: 112
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1396,12 +1396,12 @@ TextureImporter:
       name: stone with minerals_41
       rect:
         serializedVersion: 2
-        x: 145
-        y: 223
-        width: 15
+        x: 128
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1418,12 +1418,12 @@ TextureImporter:
       name: stone with minerals_42
       rect:
         serializedVersion: 2
-        x: 160
-        y: 207
+        x: 144
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1440,12 +1440,12 @@ TextureImporter:
       name: stone with minerals_43
       rect:
         serializedVersion: 2
-        x: 161
-        y: 223
-        width: 15
+        x: 160
+        y: 208
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1464,10 +1464,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 192
-        width: 15
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1484,12 +1484,12 @@ TextureImporter:
       name: stone with minerals_45
       rect:
         serializedVersion: 2
-        x: 0
-        y: 175
-        width: 15
-        height: 17
+        x: 16
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1506,12 +1506,12 @@ TextureImporter:
       name: stone with minerals_46
       rect:
         serializedVersion: 2
-        x: 16
+        x: 32
         y: 192
-        width: 15
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1528,12 +1528,12 @@ TextureImporter:
       name: stone with minerals_47
       rect:
         serializedVersion: 2
-        x: 16
-        y: 175
-        width: 15
-        height: 17
+        x: 48
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1550,12 +1550,12 @@ TextureImporter:
       name: stone with minerals_48
       rect:
         serializedVersion: 2
-        x: 32
+        x: 64
         y: 192
-        width: 15
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1572,12 +1572,12 @@ TextureImporter:
       name: stone with minerals_49
       rect:
         serializedVersion: 2
-        x: 32
-        y: 175
-        width: 15
-        height: 17
+        x: 80
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1594,12 +1594,12 @@ TextureImporter:
       name: stone with minerals_50
       rect:
         serializedVersion: 2
-        x: 48
+        x: 96
         y: 192
-        width: 15
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1616,12 +1616,12 @@ TextureImporter:
       name: stone with minerals_51
       rect:
         serializedVersion: 2
-        x: 48
-        y: 175
-        width: 15
-        height: 17
+        x: 112
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1638,12 +1638,12 @@ TextureImporter:
       name: stone with minerals_52
       rect:
         serializedVersion: 2
-        x: 64
+        x: 128
         y: 192
-        width: 15
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1660,12 +1660,12 @@ TextureImporter:
       name: stone with minerals_53
       rect:
         serializedVersion: 2
-        x: 64
-        y: 175
-        width: 15
-        height: 17
+        x: 144
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1682,12 +1682,12 @@ TextureImporter:
       name: stone with minerals_54
       rect:
         serializedVersion: 2
-        x: 80
+        x: 160
         y: 192
-        width: 15
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1704,12 +1704,12 @@ TextureImporter:
       name: stone with minerals_55
       rect:
         serializedVersion: 2
-        x: 80
-        y: 175
-        width: 15
-        height: 17
+        x: 0
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1726,12 +1726,12 @@ TextureImporter:
       name: stone with minerals_56
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 15
-        height: 13
+        x: 16
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1748,12 +1748,12 @@ TextureImporter:
       name: stone with minerals_57
       rect:
         serializedVersion: 2
-        x: 96
-        y: 175
-        width: 15
-        height: 17
+        x: 32
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1770,12 +1770,12 @@ TextureImporter:
       name: stone with minerals_58
       rect:
         serializedVersion: 2
-        x: 112
-        y: 192
-        width: 15
-        height: 13
+        x: 48
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1792,12 +1792,12 @@ TextureImporter:
       name: stone with minerals_59
       rect:
         serializedVersion: 2
-        x: 112
-        y: 175
-        width: 15
-        height: 17
+        x: 64
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1814,12 +1814,12 @@ TextureImporter:
       name: stone with minerals_60
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 15
-        height: 13
+        x: 80
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1836,12 +1836,12 @@ TextureImporter:
       name: stone with minerals_61
       rect:
         serializedVersion: 2
-        x: 128
-        y: 175
-        width: 15
-        height: 17
+        x: 96
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1858,12 +1858,12 @@ TextureImporter:
       name: stone with minerals_62
       rect:
         serializedVersion: 2
-        x: 144
-        y: 192
-        width: 15
-        height: 13
+        x: 112
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1880,12 +1880,12 @@ TextureImporter:
       name: stone with minerals_63
       rect:
         serializedVersion: 2
-        x: 144
-        y: 175
-        width: 15
-        height: 17
+        x: 128
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1902,12 +1902,12 @@ TextureImporter:
       name: stone with minerals_64
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
-        width: 15
-        height: 13
+        x: 144
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1925,11 +1925,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 175
-        width: 15
-        height: 17
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1946,12 +1946,12 @@ TextureImporter:
       name: stone with minerals_66
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 160
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1968,12 +1968,12 @@ TextureImporter:
       name: stone with minerals_67
       rect:
         serializedVersion: 2
-        x: 2
-        y: 143
-        width: 12
-        height: 18
+        x: 16
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1990,12 +1990,12 @@ TextureImporter:
       name: stone with minerals_68
       rect:
         serializedVersion: 2
-        x: 17
+        x: 32
         y: 160
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2012,12 +2012,12 @@ TextureImporter:
       name: stone with minerals_69
       rect:
         serializedVersion: 2
-        x: 18
-        y: 143
-        width: 12
-        height: 18
+        x: 48
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2034,12 +2034,12 @@ TextureImporter:
       name: stone with minerals_70
       rect:
         serializedVersion: 2
-        x: 33
+        x: 64
         y: 160
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2056,12 +2056,12 @@ TextureImporter:
       name: stone with minerals_71
       rect:
         serializedVersion: 2
-        x: 34
-        y: 143
-        width: 12
-        height: 18
+        x: 80
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2078,12 +2078,12 @@ TextureImporter:
       name: stone with minerals_72
       rect:
         serializedVersion: 2
-        x: 49
+        x: 96
         y: 160
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2100,12 +2100,12 @@ TextureImporter:
       name: stone with minerals_73
       rect:
         serializedVersion: 2
-        x: 50
-        y: 143
-        width: 12
-        height: 18
+        x: 112
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2122,12 +2122,12 @@ TextureImporter:
       name: stone with minerals_74
       rect:
         serializedVersion: 2
-        x: 65
+        x: 128
         y: 160
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2144,12 +2144,12 @@ TextureImporter:
       name: stone with minerals_75
       rect:
         serializedVersion: 2
-        x: 66
-        y: 143
-        width: 12
-        height: 18
+        x: 144
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2166,12 +2166,12 @@ TextureImporter:
       name: stone with minerals_76
       rect:
         serializedVersion: 2
-        x: 81
+        x: 160
         y: 160
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2188,12 +2188,12 @@ TextureImporter:
       name: stone with minerals_77
       rect:
         serializedVersion: 2
-        x: 82
-        y: 143
-        width: 12
-        height: 18
+        x: 0
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2210,12 +2210,12 @@ TextureImporter:
       name: stone with minerals_78
       rect:
         serializedVersion: 2
-        x: 97
-        y: 160
-        width: 15
-        height: 14
+        x: 16
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2232,12 +2232,12 @@ TextureImporter:
       name: stone with minerals_79
       rect:
         serializedVersion: 2
-        x: 98
-        y: 143
-        width: 12
-        height: 18
+        x: 32
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2254,12 +2254,12 @@ TextureImporter:
       name: stone with minerals_80
       rect:
         serializedVersion: 2
-        x: 113
-        y: 160
-        width: 15
-        height: 14
+        x: 48
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2276,12 +2276,12 @@ TextureImporter:
       name: stone with minerals_81
       rect:
         serializedVersion: 2
-        x: 114
-        y: 143
-        width: 12
-        height: 18
+        x: 64
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2298,12 +2298,12 @@ TextureImporter:
       name: stone with minerals_82
       rect:
         serializedVersion: 2
-        x: 129
-        y: 160
-        width: 15
-        height: 14
+        x: 80
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2320,12 +2320,12 @@ TextureImporter:
       name: stone with minerals_83
       rect:
         serializedVersion: 2
-        x: 130
-        y: 143
-        width: 12
-        height: 18
+        x: 96
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2342,12 +2342,12 @@ TextureImporter:
       name: stone with minerals_84
       rect:
         serializedVersion: 2
-        x: 145
-        y: 160
-        width: 15
-        height: 14
+        x: 112
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2364,12 +2364,12 @@ TextureImporter:
       name: stone with minerals_85
       rect:
         serializedVersion: 2
-        x: 146
-        y: 143
-        width: 12
-        height: 18
+        x: 128
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2386,12 +2386,12 @@ TextureImporter:
       name: stone with minerals_86
       rect:
         serializedVersion: 2
-        x: 161
-        y: 160
-        width: 15
-        height: 14
+        x: 144
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2408,12 +2408,12 @@ TextureImporter:
       name: stone with minerals_87
       rect:
         serializedVersion: 2
-        x: 162
-        y: 143
-        width: 12
-        height: 18
+        x: 160
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2430,12 +2430,12 @@ TextureImporter:
       name: stone with minerals_88
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 128
-        width: 13
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2452,12 +2452,12 @@ TextureImporter:
       name: stone with minerals_89
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 128
-        width: 13
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2474,12 +2474,12 @@ TextureImporter:
       name: stone with minerals_90
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 128
-        width: 13
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2496,12 +2496,12 @@ TextureImporter:
       name: stone with minerals_91
       rect:
         serializedVersion: 2
-        x: 37
-        y: 111
-        width: 21
-        height: 18
+        x: 48
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2518,12 +2518,12 @@ TextureImporter:
       name: stone with minerals_92
       rect:
         serializedVersion: 2
-        x: 49
+        x: 64
         y: 128
-        width: 13
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2540,12 +2540,12 @@ TextureImporter:
       name: stone with minerals_93
       rect:
         serializedVersion: 2
-        x: 65
+        x: 80
         y: 128
-        width: 13
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2562,12 +2562,12 @@ TextureImporter:
       name: stone with minerals_94
       rect:
         serializedVersion: 2
-        x: 69
-        y: 111
-        width: 21
-        height: 18
+        x: 96
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2584,12 +2584,12 @@ TextureImporter:
       name: stone with minerals_95
       rect:
         serializedVersion: 2
-        x: 81
+        x: 112
         y: 128
-        width: 13
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2606,12 +2606,12 @@ TextureImporter:
       name: stone with minerals_96
       rect:
         serializedVersion: 2
-        x: 97
+        x: 128
         y: 128
-        width: 13
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2628,12 +2628,12 @@ TextureImporter:
       name: stone with minerals_97
       rect:
         serializedVersion: 2
-        x: 101
-        y: 111
-        width: 21
-        height: 18
+        x: 144
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2650,12 +2650,12 @@ TextureImporter:
       name: stone with minerals_98
       rect:
         serializedVersion: 2
-        x: 113
+        x: 160
         y: 128
-        width: 13
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2672,12 +2672,12 @@ TextureImporter:
       name: stone with minerals_99
       rect:
         serializedVersion: 2
-        x: 129
-        y: 128
-        width: 13
-        height: 13
+        x: 0
+        y: 112
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2694,10 +2694,10 @@ TextureImporter:
       name: stone with minerals_100
       rect:
         serializedVersion: 2
-        x: 133
-        y: 111
-        width: 21
-        height: 18
+        x: 96
+        y: 112
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2716,12 +2716,12 @@ TextureImporter:
       name: stone with minerals_101
       rect:
         serializedVersion: 2
-        x: 145
-        y: 128
-        width: 13
-        height: 13
+        x: 32
+        y: 112
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2735,37 +2735,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_102
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 128
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af178b6ecbed87860800000000000000
-      internalID: 7528011680055849466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_103
       rect:
         serializedVersion: 2
-        x: 2
-        y: 31
-        width: 27
-        height: 65
+        x: 64
+        y: 112
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2779,81 +2757,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_104
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 95
-        width: 21
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c387587e6537a9c40800000000000000
-      internalID: 5519851110384629820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stone with minerals_105
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 31
-        width: 27
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4486c80678e6273d0800000000000000
-      internalID: -3210382056642287548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stone with minerals_106
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 95
-        width: 21
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a690f2cc900446f70800000000000000
-      internalID: 9179532351312431466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_107
       rect:
         serializedVersion: 2
-        x: 66
-        y: 31
-        width: 27
-        height: 65
+        x: 128
+        y: 112
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2867,37 +2779,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_108
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 95
-        width: 21
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bef722b89a76b6300800000000000000
-      internalID: 246404582503251947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_109
       rect:
         serializedVersion: 2
-        x: 98
-        y: 31
-        width: 27
-        height: 81
+        x: 0
+        y: 96
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2911,37 +2801,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_110
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 95
-        width: 21
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4a3dd4afdc112e10800000000000000
-      internalID: 2171048242238536271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_111
       rect:
         serializedVersion: 2
-        x: 17
-        y: 15
-        width: 14
+        x: 32
+        y: 96
+        width: 32
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2955,37 +2823,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_112
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 15
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae5760e2a12fd6dd0800000000000000
-      internalID: -2491068824610769430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_113
       rect:
         serializedVersion: 2
-        x: 115
-        y: 0
-        width: 27
-        height: 33
+        x: 64
+        y: 96
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2999,37 +2845,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_114
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 31
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9de6dfb3b5e38c50800000000000000
-      internalID: 6666424433618906526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_115
       rect:
         serializedVersion: 2
-        x: 1
-        y: 15
-        width: 11
-        height: 12
+        x: 96
+        y: 96
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3043,37 +2867,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_116
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 17
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76530a6a01d5852a0800000000000000
-      internalID: -6748541715518311065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_117
       rect:
         serializedVersion: 2
-        x: 66
-        y: 17
-        width: 11
-        height: 10
+        x: 128
+        y: 96
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3087,37 +2889,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_118
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 17
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c4492169a276bcc0800000000000000
-      internalID: -3695640372405779262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_119
       rect:
         serializedVersion: 2
-        x: 96
-        y: 16
-        width: 15
-        height: 13
+        x: 0
+        y: 80
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3131,37 +2911,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_120
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bdcadd8794a25fcb0800000000000000
-      internalID: -4830908530236216101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_121
       rect:
         serializedVersion: 2
-        x: 17
-        y: 0
-        width: 14
-        height: 15
+        x: 32
+        y: 80
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3175,37 +2933,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_122
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d967434ba32ce1c20800000000000000
-      internalID: 3179191944357377693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_123
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 17
-        height: 12
+        x: 64
+        y: 80
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3219,37 +2955,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_124
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 1
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4cad6174f692e9010800000000000000
-      internalID: 1197440108837919428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone with minerals_125
       rect:
         serializedVersion: 2
-        x: 82
-        y: 1
-        width: 12
-        height: 10
+        x: 96
+        y: 80
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3263,23 +2977,683 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone with minerals_126
+      name: stone with minerals_127
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 15
-        height: 13
+        x: 0
+        y: 64
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2088831d9f2f9f780800000000000000
-      internalID: -8648614454617405438
+      spriteID: bd57990c4aa12c04db3aac45ec88e12d
+      internalID: 613535252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b6d27fb42a627439b17fa69ec73df8
+      internalID: -1931136058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_131
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4abb3fba711594c8d9846650825d3d
+      internalID: -1401274502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_133
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f834bbdecda76124db03693eee227347
+      internalID: 1600231736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46feba571fe66134b844bd3c55ba7d7d
+      internalID: 778041847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9437e1eef0c3e448748bf919ebcf3b
+      internalID: 635733835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_139
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f04d6c052aedf41bf401202358ce26
+      internalID: -564300868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_141
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89455f1a8f01404db38132945fa7904
+      internalID: 1331600358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a610cdee167161142a83b56dfa6cdbc7
+      internalID: -1445752978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_145
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1e2e3cd0337a743bc96864745e352d
+      internalID: 1201556368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e56ef965d3592459a7a2debae87197
+      internalID: -738075284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_149
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd95279386051e94ba68200d90020ffb
+      internalID: 22495962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d6b47d488ee654fb0d6c245e007d22
+      internalID: -1982534909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_153
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b605d5b0d444a3f4f9c40908cf760e68
+      internalID: 745538589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_155
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30a991c1cebb64409a564117ad95910
+      internalID: -2050212862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf1f558e55ce9a43ab4b32313602469
+      internalID: 1467159766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_158
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d39d4bd13332a549bca46e05cd6a424
+      internalID: -1556661671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_159
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8462f2885655165459c8775436e5dd16
+      internalID: -719975633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_160
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d39fe583e21b68448c9e946be8642f6
+      internalID: -1366876684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bde01c27eeec4b42a357dda12a41b82
+      internalID: 702172668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd593d9c6d6978447bc6e8c33d6b4988
+      internalID: -1665897454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47937c1d852c5e647a7e775f9a8de9f7
+      internalID: 863908870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_164
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a4a5f5d975d30439238d14976e8856
+      internalID: 1303711296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_166
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2186dc091e896614181f387445a69354
+      internalID: 1882055522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_167
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06831b196a8e474e87aa3c3d30345ba
+      internalID: 205590557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_168
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabf9770c675d3e46b33462e12823f0f
+      internalID: -71654175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_169
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db08a6fd4e354744d89594e3cc2d2ebd
+      internalID: -424457976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_170
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad911ff1fe66aaa4a9b66228c8c7394e
+      internalID: 1748203755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_171
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7734f293c5577484796f0af40edb6275
+      internalID: -100878804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_172
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fb42fc045535046941bdf26207ee3d
+      internalID: 521122342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone with minerals_173
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e8d198fbefbf74e95e146970c7ed8b
+      internalID: 411181658
       vertices: []
       indices: 
       edges: []
@@ -3288,7 +3662,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 201432caa8281c04dbaa6e5c47e38c01
     internalID: 0
     vertices: []
     indices: 
@@ -3296,7 +3670,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       stone with minerals_0: -7025778583982526716
       stone with minerals_1: -217554651815706088
@@ -3330,11 +3706,59 @@ TextureImporter:
       stone with minerals_124: 1197440108837919428
       stone with minerals_125: -7401512087378842767
       stone with minerals_126: -8648614454617405438
+      stone with minerals_127: 613535252
+      stone with minerals_128: 237124341
+      stone with minerals_129: -1931136058
       stone with minerals_13: 2673140103779370098
+      stone with minerals_130: -1809693303
+      stone with minerals_131: -1401274502
+      stone with minerals_132: -144502026
+      stone with minerals_133: 1600231736
+      stone with minerals_134: 1622348066
+      stone with minerals_135: 778041847
+      stone with minerals_136: 1683591561
+      stone with minerals_137: 635733835
+      stone with minerals_138: 1136291321
+      stone with minerals_139: -564300868
       stone with minerals_14: -7396976263639518418
+      stone with minerals_140: -1704185228
+      stone with minerals_141: 1331600358
+      stone with minerals_142: 1172360650
+      stone with minerals_143: -1445752978
+      stone with minerals_144: 1019169412
+      stone with minerals_145: 1201556368
+      stone with minerals_146: -2074041855
+      stone with minerals_147: -738075284
+      stone with minerals_148: 1935271800
+      stone with minerals_149: 22495962
       stone with minerals_15: -5737864391340081735
+      stone with minerals_150: 1853976687
+      stone with minerals_151: -1982534909
+      stone with minerals_152: 1794967184
+      stone with minerals_153: 745538589
+      stone with minerals_154: 10872789
+      stone with minerals_155: -2050212862
+      stone with minerals_156: 997156530
+      stone with minerals_157: 1467159766
+      stone with minerals_158: -1556661671
+      stone with minerals_159: -719975633
       stone with minerals_16: 8136292700190897365
+      stone with minerals_160: -1366876684
+      stone with minerals_161: 702172668
+      stone with minerals_162: -1665897454
+      stone with minerals_163: 863908870
+      stone with minerals_164: 1303711296
+      stone with minerals_165: 1213054025
+      stone with minerals_166: 1882055522
+      stone with minerals_167: 205590557
+      stone with minerals_168: -71654175
+      stone with minerals_169: -424457976
       stone with minerals_17: 2682759736607273045
+      stone with minerals_170: 1748203755
+      stone with minerals_171: -100878804
+      stone with minerals_172: 521122342
+      stone with minerals_173: 411181658
+      stone with minerals_174: 329426362
       stone with minerals_18: -6465079119970973662
       stone with minerals_19: -3983058793603315766
       stone with minerals_2: -7969849070436703693

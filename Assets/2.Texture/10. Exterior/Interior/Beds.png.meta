@@ -363,6 +363,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -370,12 +383,12 @@ TextureImporter:
       name: Beds_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 475
-        width: 20
-        height: 36
+        x: 0
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -392,12 +405,12 @@ TextureImporter:
       name: Beds_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 475
-        width: 20
-        height: 36
+        x: 32
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -414,12 +427,12 @@ TextureImporter:
       name: Beds_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 475
-        width: 20
-        height: 36
+        x: 64
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -436,12 +449,12 @@ TextureImporter:
       name: Beds_3
       rect:
         serializedVersion: 2
-        x: 102
-        y: 475
-        width: 20
-        height: 36
+        x: 96
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -458,12 +471,12 @@ TextureImporter:
       name: Beds_4
       rect:
         serializedVersion: 2
-        x: 134
-        y: 475
-        width: 20
-        height: 36
+        x: 128
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -480,12 +493,12 @@ TextureImporter:
       name: Beds_5
       rect:
         serializedVersion: 2
-        x: 166
-        y: 475
-        width: 20
-        height: 36
+        x: 160
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -502,12 +515,12 @@ TextureImporter:
       name: Beds_6
       rect:
         serializedVersion: 2
-        x: 198
-        y: 475
-        width: 20
-        height: 36
+        x: 192
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -524,12 +537,12 @@ TextureImporter:
       name: Beds_7
       rect:
         serializedVersion: 2
-        x: 230
-        y: 475
-        width: 20
-        height: 36
+        x: 224
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -546,12 +559,12 @@ TextureImporter:
       name: Beds_8
       rect:
         serializedVersion: 2
-        x: 262
-        y: 475
-        width: 20
-        height: 36
+        x: 256
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -568,12 +581,12 @@ TextureImporter:
       name: Beds_9
       rect:
         serializedVersion: 2
-        x: 294
-        y: 475
-        width: 20
-        height: 36
+        x: 288
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -590,12 +603,12 @@ TextureImporter:
       name: Beds_10
       rect:
         serializedVersion: 2
-        x: 326
-        y: 475
-        width: 20
-        height: 36
+        x: 320
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -612,12 +625,12 @@ TextureImporter:
       name: Beds_11
       rect:
         serializedVersion: 2
-        x: 358
-        y: 475
-        width: 20
-        height: 36
+        x: 352
+        y: 464
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -634,12 +647,12 @@ TextureImporter:
       name: Beds_12
       rect:
         serializedVersion: 2
-        x: 6
-        y: 427
-        width: 20
-        height: 36
+        x: 0
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -656,12 +669,12 @@ TextureImporter:
       name: Beds_13
       rect:
         serializedVersion: 2
-        x: 38
-        y: 427
-        width: 20
-        height: 36
+        x: 32
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -678,12 +691,12 @@ TextureImporter:
       name: Beds_14
       rect:
         serializedVersion: 2
-        x: 70
-        y: 427
-        width: 20
-        height: 36
+        x: 64
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -700,12 +713,12 @@ TextureImporter:
       name: Beds_15
       rect:
         serializedVersion: 2
-        x: 102
-        y: 427
-        width: 20
-        height: 36
+        x: 96
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -722,12 +735,12 @@ TextureImporter:
       name: Beds_16
       rect:
         serializedVersion: 2
-        x: 134
-        y: 427
-        width: 20
-        height: 36
+        x: 128
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -744,12 +757,12 @@ TextureImporter:
       name: Beds_17
       rect:
         serializedVersion: 2
-        x: 166
-        y: 427
-        width: 20
-        height: 36
+        x: 160
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -766,12 +779,12 @@ TextureImporter:
       name: Beds_18
       rect:
         serializedVersion: 2
-        x: 198
-        y: 427
-        width: 20
-        height: 36
+        x: 192
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -788,12 +801,12 @@ TextureImporter:
       name: Beds_19
       rect:
         serializedVersion: 2
-        x: 230
-        y: 427
-        width: 20
-        height: 36
+        x: 224
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -810,12 +823,12 @@ TextureImporter:
       name: Beds_20
       rect:
         serializedVersion: 2
-        x: 262
-        y: 427
-        width: 20
-        height: 36
+        x: 256
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -832,12 +845,12 @@ TextureImporter:
       name: Beds_21
       rect:
         serializedVersion: 2
-        x: 294
-        y: 427
-        width: 20
-        height: 36
+        x: 288
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -854,12 +867,12 @@ TextureImporter:
       name: Beds_22
       rect:
         serializedVersion: 2
-        x: 326
-        y: 427
-        width: 20
-        height: 36
+        x: 320
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -876,12 +889,12 @@ TextureImporter:
       name: Beds_23
       rect:
         serializedVersion: 2
-        x: 358
-        y: 427
-        width: 20
-        height: 36
+        x: 352
+        y: 416
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -898,12 +911,12 @@ TextureImporter:
       name: Beds_24
       rect:
         serializedVersion: 2
-        x: 6
-        y: 379
-        width: 20
-        height: 36
+        x: 0
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -920,12 +933,12 @@ TextureImporter:
       name: Beds_25
       rect:
         serializedVersion: 2
-        x: 38
-        y: 379
-        width: 20
-        height: 36
+        x: 32
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -942,12 +955,12 @@ TextureImporter:
       name: Beds_26
       rect:
         serializedVersion: 2
-        x: 70
-        y: 379
-        width: 20
-        height: 36
+        x: 64
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -964,12 +977,12 @@ TextureImporter:
       name: Beds_27
       rect:
         serializedVersion: 2
-        x: 102
-        y: 379
-        width: 20
-        height: 36
+        x: 96
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -986,12 +999,12 @@ TextureImporter:
       name: Beds_28
       rect:
         serializedVersion: 2
-        x: 134
-        y: 379
-        width: 20
-        height: 36
+        x: 128
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1008,12 +1021,12 @@ TextureImporter:
       name: Beds_29
       rect:
         serializedVersion: 2
-        x: 166
-        y: 379
-        width: 20
-        height: 36
+        x: 160
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1030,12 +1043,12 @@ TextureImporter:
       name: Beds_30
       rect:
         serializedVersion: 2
-        x: 198
-        y: 379
-        width: 20
-        height: 36
+        x: 192
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1052,12 +1065,12 @@ TextureImporter:
       name: Beds_31
       rect:
         serializedVersion: 2
-        x: 230
-        y: 379
-        width: 20
-        height: 36
+        x: 224
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1074,12 +1087,12 @@ TextureImporter:
       name: Beds_32
       rect:
         serializedVersion: 2
-        x: 262
-        y: 379
-        width: 20
-        height: 36
+        x: 256
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1096,12 +1109,12 @@ TextureImporter:
       name: Beds_33
       rect:
         serializedVersion: 2
-        x: 294
-        y: 379
-        width: 20
-        height: 36
+        x: 288
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1118,12 +1131,12 @@ TextureImporter:
       name: Beds_34
       rect:
         serializedVersion: 2
-        x: 326
-        y: 379
-        width: 20
-        height: 36
+        x: 320
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1140,12 +1153,12 @@ TextureImporter:
       name: Beds_35
       rect:
         serializedVersion: 2
-        x: 358
-        y: 379
-        width: 20
-        height: 36
+        x: 352
+        y: 368
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1163,11 +1176,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 335
-        width: 33
-        height: 26
+        y: 336
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1184,12 +1197,12 @@ TextureImporter:
       name: Beds_37
       rect:
         serializedVersion: 2
-        x: 47
-        y: 335
-        width: 34
-        height: 26
+        x: 0
+        y: 304
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1206,12 +1219,12 @@ TextureImporter:
       name: Beds_38
       rect:
         serializedVersion: 2
-        x: 95
-        y: 335
-        width: 34
-        height: 26
+        x: 0
+        y: 272
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1228,12 +1241,12 @@ TextureImporter:
       name: Beds_39
       rect:
         serializedVersion: 2
-        x: 143
-        y: 335
-        width: 34
-        height: 26
+        x: 48
+        y: 336
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1250,12 +1263,12 @@ TextureImporter:
       name: Beds_40
       rect:
         serializedVersion: 2
-        x: 191
-        y: 335
-        width: 34
-        height: 26
+        x: 48
+        y: 304
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1272,12 +1285,12 @@ TextureImporter:
       name: Beds_41
       rect:
         serializedVersion: 2
-        x: 239
-        y: 335
-        width: 34
-        height: 26
+        x: 48
+        y: 272
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1294,12 +1307,12 @@ TextureImporter:
       name: Beds_42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 303
-        width: 33
-        height: 26
+        x: 96
+        y: 272
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1316,12 +1329,12 @@ TextureImporter:
       name: Beds_43
       rect:
         serializedVersion: 2
-        x: 47
-        y: 303
-        width: 34
-        height: 26
+        x: 96
+        y: 304
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1338,12 +1351,12 @@ TextureImporter:
       name: Beds_44
       rect:
         serializedVersion: 2
-        x: 95
-        y: 303
-        width: 34
-        height: 26
+        x: 96
+        y: 336
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1360,12 +1373,12 @@ TextureImporter:
       name: Beds_45
       rect:
         serializedVersion: 2
-        x: 143
-        y: 303
-        width: 34
-        height: 26
+        x: 144
+        y: 336
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1382,12 +1395,12 @@ TextureImporter:
       name: Beds_46
       rect:
         serializedVersion: 2
-        x: 191
-        y: 303
-        width: 34
-        height: 26
+        x: 144
+        y: 304
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1404,12 +1417,12 @@ TextureImporter:
       name: Beds_47
       rect:
         serializedVersion: 2
-        x: 239
-        y: 303
-        width: 34
-        height: 26
+        x: 144
+        y: 272
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1426,12 +1439,12 @@ TextureImporter:
       name: Beds_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 271
-        width: 33
-        height: 26
+        x: 192
+        y: 336
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1448,12 +1461,12 @@ TextureImporter:
       name: Beds_49
       rect:
         serializedVersion: 2
-        x: 47
-        y: 271
-        width: 34
-        height: 26
+        x: 192
+        y: 304
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1470,12 +1483,12 @@ TextureImporter:
       name: Beds_50
       rect:
         serializedVersion: 2
-        x: 95
-        y: 271
-        width: 34
-        height: 26
+        x: 192
+        y: 272
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1492,12 +1505,12 @@ TextureImporter:
       name: Beds_51
       rect:
         serializedVersion: 2
-        x: 143
-        y: 271
-        width: 34
-        height: 26
+        x: 240
+        y: 272
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1514,12 +1527,12 @@ TextureImporter:
       name: Beds_52
       rect:
         serializedVersion: 2
-        x: 191
-        y: 271
-        width: 34
-        height: 26
+        x: 240
+        y: 304
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1536,12 +1549,12 @@ TextureImporter:
       name: Beds_53
       rect:
         serializedVersion: 2
-        x: 239
-        y: 271
-        width: 34
-        height: 26
+        x: 240
+        y: 336
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1558,19 +1571,19 @@ TextureImporter:
       name: Beds_54
       rect:
         serializedVersion: 2
-        x: 6
-        y: 208
-        width: 35
-        height: 36
+        x: 0
+        y: 209
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 03533233a0fb9aee0800000000000000
+      spriteID: b2294fa26518db14c93fdad359c42f12
       internalID: -1249257371090078416
       vertices: []
       indices: 
@@ -1580,19 +1593,19 @@ TextureImporter:
       name: Beds_55
       rect:
         serializedVersion: 2
-        x: 54
-        y: 208
-        width: 35
-        height: 36
+        x: 0
+        y: 161
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 88ca131ab959a7520800000000000000
+      spriteID: 01be923688a874549a410f0116b59a29
       internalID: 2700635422218890376
       vertices: []
       indices: 
@@ -1602,19 +1615,19 @@ TextureImporter:
       name: Beds_56
       rect:
         serializedVersion: 2
-        x: 102
-        y: 208
-        width: 35
-        height: 36
+        x: 0
+        y: 113
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3acb61c6eb1c9bdc0800000000000000
+      spriteID: 81c4baaed69196d4b8fe4137ed5501d9
       internalID: -3622651401641476957
       vertices: []
       indices: 
@@ -1624,19 +1637,19 @@ TextureImporter:
       name: Beds_57
       rect:
         serializedVersion: 2
-        x: 150
-        y: 208
-        width: 35
-        height: 36
+        x: 0
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b693f63e57a994110800000000000000
+      spriteID: c888f0f358bde0e4f8ccf8761085274b
       internalID: 1245696603062221163
       vertices: []
       indices: 
@@ -1646,19 +1659,19 @@ TextureImporter:
       name: Beds_58
       rect:
         serializedVersion: 2
-        x: 198
-        y: 208
-        width: 35
-        height: 36
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6c644e584d0e187c0800000000000000
+      spriteID: 220729f2a7e9ac747bfa2d5bd486133d
       internalID: -4070725384782199098
       vertices: []
       indices: 
@@ -1668,19 +1681,19 @@ TextureImporter:
       name: Beds_59
       rect:
         serializedVersion: 2
-        x: 246
-        y: 208
-        width: 35
-        height: 36
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0078d4d3e0b0e4740800000000000000
+      spriteID: 73d0fbcfd9e79ed45bc74ca436ffa931
       internalID: 5138056380662253312
       vertices: []
       indices: 
@@ -1690,19 +1703,19 @@ TextureImporter:
       name: Beds_60
       rect:
         serializedVersion: 2
-        x: 294
-        y: 208
-        width: 35
-        height: 36
+        x: 48
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4d51bf417c115d870800000000000000
+      spriteID: 8884214d3dd9d6142b6dc416691a3331
       internalID: 8706885001338885588
       vertices: []
       indices: 
@@ -1712,19 +1725,19 @@ TextureImporter:
       name: Beds_61
       rect:
         serializedVersion: 2
-        x: 342
-        y: 208
-        width: 35
-        height: 36
+        x: 96
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd71b4a1be4f6a530800000000000000
+      spriteID: b605e0bd429df1a49a01a6d1f79a034c
       internalID: 3866046620739770332
       vertices: []
       indices: 
@@ -1734,19 +1747,19 @@ TextureImporter:
       name: Beds_62
       rect:
         serializedVersion: 2
-        x: 6
-        y: 160
-        width: 35
-        height: 36
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a37e899142bbb3050800000000000000
+      spriteID: 4f6bd39358a1a0b47ab0da2da909bf42
       internalID: 5781420310382831418
       vertices: []
       indices: 
@@ -1756,19 +1769,19 @@ TextureImporter:
       name: Beds_63
       rect:
         serializedVersion: 2
-        x: 54
-        y: 160
-        width: 35
-        height: 36
+        x: 144
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 53f2d2f436ff69d80800000000000000
+      spriteID: 9dfa6308dfdb3f44ba8e4ea11b19ed15
       internalID: -8244121265859907787
       vertices: []
       indices: 
@@ -1778,19 +1791,19 @@ TextureImporter:
       name: Beds_64
       rect:
         serializedVersion: 2
-        x: 102
-        y: 160
-        width: 35
-        height: 36
+        x: 144
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 484f5d5960e3d2e70800000000000000
+      spriteID: 26c887f975174d94faa65215b8b68481
       internalID: 9091991420735452292
       vertices: []
       indices: 
@@ -1800,19 +1813,19 @@ TextureImporter:
       name: Beds_65
       rect:
         serializedVersion: 2
-        x: 150
-        y: 160
-        width: 35
-        height: 36
+        x: 192
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 555148dd64feb1f50800000000000000
+      spriteID: 5ad842b3c13f0f744881442e422bfb0b
       internalID: 6853334345617511765
       vertices: []
       indices: 
@@ -1822,19 +1835,19 @@ TextureImporter:
       name: Beds_66
       rect:
         serializedVersion: 2
-        x: 198
-        y: 160
-        width: 35
-        height: 36
+        x: 240
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 348c2ef421bdaeb90800000000000000
+      spriteID: 2963fa5711b3d5c4f9b66a2c0921875d
       internalID: -7211710981584271293
       vertices: []
       indices: 
@@ -1844,19 +1857,19 @@ TextureImporter:
       name: Beds_67
       rect:
         serializedVersion: 2
-        x: 246
-        y: 160
-        width: 35
-        height: 36
+        x: 288
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd16aed02c9ebb870800000000000000
+      spriteID: cbb4b73e0bcfcec45ae732f3de26dd03
       internalID: 8699804124862636508
       vertices: []
       indices: 
@@ -1866,19 +1879,19 @@ TextureImporter:
       name: Beds_68
       rect:
         serializedVersion: 2
-        x: 294
-        y: 160
-        width: 35
-        height: 36
+        x: 336
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a2867f7f17e5f7750800000000000000
+      spriteID: d9af41630b8f1b348953b6085a4149ae
       internalID: 6304861846926485546
       vertices: []
       indices: 
@@ -1888,19 +1901,19 @@ TextureImporter:
       name: Beds_69
       rect:
         serializedVersion: 2
-        x: 342
-        y: 160
-        width: 35
-        height: 36
+        x: 48
+        y: 209
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9119426e5b5d844a0800000000000000
+      spriteID: 9583fc268ceb42746bf40029e0a97510
       internalID: -6608797475939249895
       vertices: []
       indices: 
@@ -1910,19 +1923,19 @@ TextureImporter:
       name: Beds_70
       rect:
         serializedVersion: 2
-        x: 6
-        y: 112
-        width: 35
-        height: 36
+        x: 96
+        y: 209
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: feab2c174828a9970800000000000000
+      spriteID: b897f8a7350b18e488ae7cb723928fad
       internalID: 8762459530358602479
       vertices: []
       indices: 
@@ -1932,19 +1945,19 @@ TextureImporter:
       name: Beds_71
       rect:
         serializedVersion: 2
-        x: 54
-        y: 112
-        width: 35
-        height: 36
+        x: 144
+        y: 209
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 61f1bc764bdf23b50800000000000000
+      spriteID: f2e7fe53dd8f1da4aaf428cd72dd31ca
       internalID: 6571593757564280598
       vertices: []
       indices: 
@@ -1954,19 +1967,19 @@ TextureImporter:
       name: Beds_72
       rect:
         serializedVersion: 2
-        x: 102
-        y: 112
-        width: 35
-        height: 36
+        x: 192
+        y: 209
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9a455431b353969f0800000000000000
+      spriteID: c8873ea50f39879469191b69d1739699
       internalID: -474789757868223319
       vertices: []
       indices: 
@@ -1976,19 +1989,19 @@ TextureImporter:
       name: Beds_73
       rect:
         serializedVersion: 2
-        x: 150
-        y: 112
-        width: 35
-        height: 36
+        x: 240
+        y: 209
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a554bf9e586a5e4c0800000000000000
+      spriteID: 2508a69a0f3eeda42a911f858038f52f
       internalID: -4258814778522516134
       vertices: []
       indices: 
@@ -1998,19 +2011,19 @@ TextureImporter:
       name: Beds_74
       rect:
         serializedVersion: 2
-        x: 198
-        y: 112
-        width: 35
-        height: 36
+        x: 288
+        y: 209
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f0be31b9144508c0800000000000000
+      spriteID: 8ff1f750c919c264c9bf3c964c6471a1
       internalID: -4033743014101864204
       vertices: []
       indices: 
@@ -2020,19 +2033,19 @@ TextureImporter:
       name: Beds_75
       rect:
         serializedVersion: 2
-        x: 246
-        y: 112
-        width: 35
-        height: 36
+        x: 336
+        y: 209
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd8219c30b742d250800000000000000
+      spriteID: 22ed8210de0c5cd4d8f6968f78098d48
       internalID: 5967911278475290844
       vertices: []
       indices: 
@@ -2042,19 +2055,19 @@ TextureImporter:
       name: Beds_76
       rect:
         serializedVersion: 2
-        x: 294
-        y: 112
-        width: 35
-        height: 36
+        x: 48
+        y: 161
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c3794dd683545ad60800000000000000
+      spriteID: f70c450e1d20a66489d751aa8b21f532
       internalID: 7900797229954537276
       vertices: []
       indices: 
@@ -2064,19 +2077,19 @@ TextureImporter:
       name: Beds_77
       rect:
         serializedVersion: 2
-        x: 342
-        y: 112
-        width: 35
-        height: 36
+        x: 48
+        y: 113
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 619a8c6dda8d73200800000000000000
+      spriteID: b620c3b76badac045a1d2419644b4164
       internalID: 159834552939358486
       vertices: []
       indices: 
@@ -2086,19 +2099,19 @@ TextureImporter:
       name: Beds_78
       rect:
         serializedVersion: 2
-        x: 0
-        y: 47
-        width: 33
-        height: 39
+        x: 96
+        y: 113
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e5ca19882f3904d00800000000000000
+      spriteID: b1290e6dc9f5c2d4aa1b197b044536bc
       internalID: 954925790885162078
       vertices: []
       indices: 
@@ -2108,19 +2121,19 @@ TextureImporter:
       name: Beds_79
       rect:
         serializedVersion: 2
-        x: 47
-        y: 47
-        width: 34
-        height: 39
+        x: 96
+        y: 161
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8dc7c3c77f5c99c30800000000000000
+      spriteID: 927d097697ee4644c9a4967da2d9474a
       internalID: 4366738980444339416
       vertices: []
       indices: 
@@ -2130,19 +2143,19 @@ TextureImporter:
       name: Beds_80
       rect:
         serializedVersion: 2
-        x: 95
-        y: 47
-        width: 34
-        height: 39
+        x: 144
+        y: 113
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 40c737741f412a8d0800000000000000
+      spriteID: b2bca15ea95d92c4bb0eba914e5f24d8
       internalID: -2836681788771566588
       vertices: []
       indices: 
@@ -2152,19 +2165,19 @@ TextureImporter:
       name: Beds_81
       rect:
         serializedVersion: 2
-        x: 143
-        y: 47
-        width: 34
-        height: 39
+        x: 144
+        y: 161
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 78a095caa640dce90800000000000000
+      spriteID: 2b0110f35dc38724bb5f20fb254e1283
       internalID: -7003936989286692217
       vertices: []
       indices: 
@@ -2174,19 +2187,19 @@ TextureImporter:
       name: Beds_82
       rect:
         serializedVersion: 2
-        x: 191
-        y: 47
-        width: 34
-        height: 39
+        x: 192
+        y: 161
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 49a542f0798825250800000000000000
+      spriteID: 6886a6dde13c59145a2d9adaee30e852
       internalID: 5931953841575844500
       vertices: []
       indices: 
@@ -2196,19 +2209,19 @@ TextureImporter:
       name: Beds_83
       rect:
         serializedVersion: 2
-        x: 239
-        y: 47
-        width: 34
-        height: 39
+        x: 192
+        y: 113
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b95048cde74c28d20800000000000000
+      spriteID: cf0c5b7f6e1d1d54da8bfb48c4476b30
       internalID: 3279399527823705499
       vertices: []
       indices: 
@@ -2218,19 +2231,19 @@ TextureImporter:
       name: Beds_84
       rect:
         serializedVersion: 2
-        x: 287
-        y: 47
-        width: 34
-        height: 39
+        x: 240
+        y: 161
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3473eaf75ddd309c0800000000000000
+      spriteID: 050c32ac8c1cfba4ca3f1443f5a4d1b9
       internalID: -3962079338116008125
       vertices: []
       indices: 
@@ -2240,19 +2253,19 @@ TextureImporter:
       name: Beds_85
       rect:
         serializedVersion: 2
-        x: 335
-        y: 47
-        width: 34
-        height: 39
+        x: 240
+        y: 113
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2076cbb6ab05dbc20800000000000000
+      spriteID: 5be43fe251f3bc741a95147cb317949d
       internalID: 3223821669868791554
       vertices: []
       indices: 
@@ -2262,19 +2275,19 @@ TextureImporter:
       name: Beds_86
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 33
-        height: 38
+        x: 288
+        y: 161
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f236dee033044610800000000000000
+      spriteID: d886f91d787949949bc1af99001ad887
       internalID: 1604410875951067894
       vertices: []
       indices: 
@@ -2284,19 +2297,19 @@ TextureImporter:
       name: Beds_87
       rect:
         serializedVersion: 2
-        x: 47
-        y: 0
-        width: 34
-        height: 39
+        x: 288
+        y: 113
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 27cd886dd1657dd70800000000000000
+      spriteID: a27f0aad1f41c4d458d1909964c0ede9
       internalID: 9067811060887116914
       vertices: []
       indices: 
@@ -2306,19 +2319,19 @@ TextureImporter:
       name: Beds_88
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
-        width: 34
-        height: 39
+        x: 336
+        y: 113
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 661169721c3b787f0800000000000000
+      spriteID: 5590111e323a40e49a8cdba7b8f77389
       internalID: -610321582311206554
       vertices: []
       indices: 
@@ -2328,19 +2341,19 @@ TextureImporter:
       name: Beds_89
       rect:
         serializedVersion: 2
-        x: 143
-        y: 0
-        width: 34
-        height: 38
+        x: 336
+        y: 161
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: da38e23d4e21dd660800000000000000
+      spriteID: 79af1edc9ec76204a833ebd427f7d80c
       internalID: 7412101335726588845
       vertices: []
       indices: 
@@ -2350,7 +2363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 17e6237c6eeaf3c4aa00811578666b74
     internalID: 0
     vertices: []
     indices: 
@@ -2358,12 +2371,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Beds_0: 546763503605980624
       Beds_1: -185758005347352503
       Beds_10: 6926674174083767616
+      Beds_100: -2025315375
+      Beds_101: 662578023
+      Beds_102: 1269610542
+      Beds_103: 951089995
+      Beds_104: -1392114022
+      Beds_105: -1753206210
+      Beds_106: -1766810821
+      Beds_107: 1585828439
+      Beds_108: 396157340
+      Beds_109: 68770198
       Beds_11: -1218729791414596911
+      Beds_110: 340009883
+      Beds_111: -320337365
+      Beds_112: 630958834
+      Beds_113: -1222319187
       Beds_12: 5711529945742192904
       Beds_13: 5941651348029543767
       Beds_14: 6027708966550151599
@@ -2450,6 +2479,16 @@ TextureImporter:
       Beds_88: -610321582311206554
       Beds_89: 7412101335726588845
       Beds_9: -1748576452641289905
+      Beds_90: 1101989134
+      Beds_91: -1336488313
+      Beds_92: -1419589061
+      Beds_93: -917480726
+      Beds_94: -1137771941
+      Beds_95: 1956461894
+      Beds_96: 1247455241
+      Beds_97: 913147222
+      Beds_98: 424211408
+      Beds_99: -624089275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
