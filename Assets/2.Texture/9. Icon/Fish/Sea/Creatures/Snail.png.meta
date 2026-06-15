@@ -129,6 +129,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -136,12 +149,12 @@ TextureImporter:
       name: Snail_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 50
-        width: 14
-        height: 13
+        x: 0
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +171,12 @@ TextureImporter:
       name: Snail_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 50
-        width: 14
-        height: 13
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +193,12 @@ TextureImporter:
       name: Snail_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 50
-        width: 14
-        height: 13
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +215,12 @@ TextureImporter:
       name: Snail_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 50
-        width: 14
-        height: 13
+        x: 48
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,12 +237,12 @@ TextureImporter:
       name: Snail_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 50
-        width: 14
-        height: 13
+        x: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,11 +260,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 33
+        y: 32
         width: 16
-        height: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,11 +282,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 33
+        y: 32
         width: 16
-        height: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,11 +304,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 33
+        y: 32
         width: 16
-        height: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,11 +326,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 33
+        y: 32
         width: 16
-        height: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -335,11 +348,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 33
+        y: 32
         width: 16
-        height: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,12 +369,12 @@ TextureImporter:
       name: Snail_10
       rect:
         serializedVersion: 2
-        x: 1
-        y: 18
-        width: 14
-        height: 13
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -378,12 +391,12 @@ TextureImporter:
       name: Snail_11
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 14
-        height: 13
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,7 +413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a0ee9df793869694f8ccee0243a5310f
     internalID: 0
     vertices: []
     indices: 
@@ -408,7 +421,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Snail_0: 585679349008182817
       Snail_1: -7574233937097828409

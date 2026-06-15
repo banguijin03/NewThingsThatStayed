@@ -268,7 +268,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711398885917539225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -307,6 +307,7 @@ MonoBehaviour:
   - prefabName: ItemHoverInfo
     uiType: 15
     isOpen: 0
+    isOverlay: 0
 --- !u!95 &1370809855081839029
 Animator:
   serializedVersion: 7
@@ -2684,7 +2685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.53300005}
   m_AnchorMax: {x: 0.39765686, y: 0.86437106}
-  m_AnchoredPosition: {x: 4.0000076, y: 6}
+  m_AnchoredPosition: {x: 4, y: 6}
   m_SizeDelta: {x: -47.19821, y: -43.98697}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7209015175530344227

@@ -488,7 +488,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: All Fish_0
+      name: Lionfish
       rect:
         serializedVersion: 2
         x: 0
@@ -510,7 +510,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_1
+      name: Herring
       rect:
         serializedVersion: 2
         x: 16
@@ -532,7 +532,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_2
+      name: Goby
       rect:
         serializedVersion: 2
         x: 32
@@ -554,7 +554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_3
+      name: Halibut
       rect:
         serializedVersion: 2
         x: 48
@@ -576,7 +576,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_4
+      name: Bream
       rect:
         serializedVersion: 2
         x: 64
@@ -598,7 +598,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_5
+      name: Crimson Fish
       rect:
         serializedVersion: 2
         x: 80
@@ -642,7 +642,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_7
+      name: Silver Herring
       rect:
         serializedVersion: 2
         x: 112
@@ -1478,7 +1478,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_45
+      name: dolphin
       rect:
         serializedVersion: 2
         x: 80
@@ -1500,7 +1500,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_46
+      name: purple_dolphin
       rect:
         serializedVersion: 2
         x: 96
@@ -1522,7 +1522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_47
+      name: Radioactivity_dolphin
       rect:
         serializedVersion: 2
         x: 112
@@ -1544,7 +1544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Fish_48
+      name: pink_dolphin
       rect:
         serializedVersion: 2
         x: 128
@@ -3275,8 +3275,6 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      All Fish_0: 5957622834483865180
-      All Fish_1: 1650627085702914148
       All Fish_10: 1664389839450627793
       All Fish_100: -3356891118459427709
       All Fish_101: 1680397137534217762
@@ -3313,7 +3311,6 @@ TextureImporter:
       All Fish_17: -5751729282153845499
       All Fish_18: 2752601439408789525
       All Fish_19: -739831154408564104
-      All Fish_2: -5884130725341288322
       All Fish_20: 4088534280786916798
       All Fish_21: -4160571833659166063
       All Fish_22: -170834754853828129
@@ -3324,7 +3321,6 @@ TextureImporter:
       All Fish_27: -6018222663116035967
       All Fish_28: -5895465195398248002
       All Fish_29: -8861701044397609110
-      All Fish_3: 5674498923678208245
       All Fish_30: 3149758267086350854
       All Fish_31: 8851695063834566741
       All Fish_32: -9217312998716778497
@@ -3335,18 +3331,12 @@ TextureImporter:
       All Fish_37: -6318650413377613762
       All Fish_38: 3983705535324911691
       All Fish_39: 1024177161176833910
-      All Fish_4: -5993266230614147710
       All Fish_40: -3205437512611670210
       All Fish_41: 6603100205642814384
       All Fish_42: 8241108800042506674
       All Fish_43: 7134313255737622500
       All Fish_44: 5263477781711390297
-      All Fish_45: 5422655703821243240
-      All Fish_46: -5779072519830020276
-      All Fish_47: -954006648455686252
-      All Fish_48: 7142080422799321218
       All Fish_49: -888105409374797131
-      All Fish_5: -2111657281896581752
       All Fish_50: -843107660331157518
       All Fish_51: 1224074806312341562
       All Fish_52: 1027400229977197214
@@ -3368,7 +3358,6 @@ TextureImporter:
       All Fish_67: 5311398520855143093
       All Fish_68: 5003152662389234360
       All Fish_69: -1767149452726317895
-      All Fish_7: -472855026126704828
       All Fish_70: 1957541044629850748
       All Fish_71: 4102258778779228521
       All Fish_72: 4011766345232408141
@@ -3401,6 +3390,17 @@ TextureImporter:
       All Fish_97: 4975656871404461004
       All Fish_98: -3073364538512091818
       All Fish_99: -2635281781063794543
+      Bream: -5993266230614147710
+      Crimson Fish: -2111657281896581752
+      Goby: -5884130725341288322
+      Halibut: 5674498923678208245
+      Herring: 1650627085702914148
+      Lionfish: 5957622834483865180
+      Radioactivity_dolphin: -954006648455686252
+      Silver Herring: -472855026126704828
+      dolphin: 5422655703821243240
+      pink_dolphin: 7142080422799321218
+      purple_dolphin: -5779072519830020276
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

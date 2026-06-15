@@ -77,6 +77,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "HalfSplit",
+                    "type": "Button",
+                    "id": "642c47e6-2428-494e-a92f-39655f7ed073",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -319,6 +328,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "AnyKey",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1673ffe9-f3f3-4ee4-890d-8c45a407526e",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HalfSplit",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -16,5 +16,5 @@ MonoBehaviour:
   displayName: "\uCCA0 \uD654\uC0B4"
   explain: 
   type: 10
-  maxStack: 0
+  maxStack: 1
   weight: 0

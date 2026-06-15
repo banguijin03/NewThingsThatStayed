@@ -54,6 +54,9 @@ MonoBehaviour:
   - prefabName: ItrmHoverInfo
     uiType: 15
     isOpen: 0
+  - prefabName: ItemCursorSlot
+    uiType: 19
+    isOpen: 0
 --- !u!1 &641183333110565200
 GameObject:
   m_ObjectHideFlags: 0

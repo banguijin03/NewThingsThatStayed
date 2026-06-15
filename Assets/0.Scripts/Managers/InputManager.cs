@@ -22,12 +22,21 @@ public class InputManager : ManagerBase
 
 	public static event ButtonEvent			OnCancel;
 	public static event ButtonEvent			OnShowStatus;
+	public static event ButtonEvent			OnShift;
+	public static bool IsShif { get; private set; } = false;
+	void ShiftInput(bool value)
+	{
+		IsShif = value;
+		OnShift?.Invoke(value);
+	}
 
 	public static event VectorEvent			OnMove;
 	public static event Action				OnAnyKey;
 
     static ISelectable _cursorHoverSelectable;
     public static ISelectable CursorHoverSelectable => _cursorHoverSelectable;
+
+    public static GameObject CursorHoverObject { get; internal set; }
 
     PlayerInput targetInput;
 	Dictionary<string, InputAction> actionDictionary = new();
@@ -128,20 +137,23 @@ public class InputManager : ManagerBase
 
 		InitializeAction("CursorPositionChanged",(context) => CursorPositionChanged(GetVector2Value(context)));
 
-		InitializeAction("Move",				 (context) => OnMove?.Invoke(GetVector2Value(context))
-							   ,				 (context) => OnMove?.Invoke(Vector2.zero));
+		InitializeAction("Move",				(context) => OnMove?.Invoke(GetVector2Value(context))
+							   ,				(context) => OnMove?.Invoke(Vector2.zero));
 
-        InitializeAction("MouseLeftButton",  (context) => OnMouseLeftButton ?.Invoke(true,  cursorScreenPosition, cursorWorldPosition)
-										  ,	 (context) => OnMouseLeftButton ?.Invoke(false, cursorScreenPosition, cursorWorldPosition));
+        InitializeAction("MouseLeftButton",		(context) => OnMouseLeftButton	?.Invoke(true,  cursorScreenPosition, cursorWorldPosition)
+										  ,		(context) => OnMouseLeftButton	?.Invoke(false, cursorScreenPosition, cursorWorldPosition));
 
-		InitializeAction("MouseRightButton", (context) => OnMouseRightButton?.Invoke(true,  cursorScreenPosition, cursorWorldPosition)
-										   , (context) => OnMouseRightButton?.Invoke(false, cursorScreenPosition, cursorWorldPosition));
+		InitializeAction("MouseRightButton",	(context) => OnMouseRightButton	?.Invoke(true,  cursorScreenPosition, cursorWorldPosition)
+										   ,	(context) => OnMouseRightButton	?.Invoke(false, cursorScreenPosition, cursorWorldPosition));
 
-		InitializeAction("ShowStatusButton", (context) => OnShowStatus		?.Invoke(true)
-										   , (context) => OnShowStatus		?.Invoke(false));
+		InitializeAction("ShowStatusButton",	(context) => OnShowStatus		?.Invoke(true)
+										   ,	(context) => OnShowStatus		?.Invoke(false));
 
-		InitializeAction("Cancel",				 (context) => OnCancel			?.Invoke(true));
-		InitializeAction("AnyKey",				 (context) => OnAnyKey?.Invoke());
+		InitializeAction("Cancel",				(context) => OnCancel			?.Invoke(true));
+		InitializeAction("AnyKey",				(context) => OnAnyKey			?.Invoke());
+
+		InitializeAction("Shift",				(context) => OnShift			?.Invoke(true)
+								,				(context) => OnShift			?.Invoke(false));
 
     }
 

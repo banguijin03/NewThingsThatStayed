@@ -147,6 +147,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -154,12 +167,12 @@ TextureImporter:
       name: Frog_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 33
-        width: 13
-        height: 13
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -176,12 +189,12 @@ TextureImporter:
       name: Frog_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 33
-        width: 13
-        height: 12
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -198,12 +211,12 @@ TextureImporter:
       name: Frog_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 33
-        width: 13
-        height: 12
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -220,12 +233,12 @@ TextureImporter:
       name: Frog_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 33
-        width: 13
-        height: 12
+        x: 48
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,12 +255,12 @@ TextureImporter:
       name: Frog_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 33
-        width: 13
-        height: 12
+        x: 64
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -264,12 +277,12 @@ TextureImporter:
       name: Frog_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 33
-        width: 13
-        height: 12
+        x: 80
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -288,10 +301,10 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 32
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -308,12 +321,12 @@ TextureImporter:
       name: Frog_7
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 16
-        width: 15
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -332,10 +345,10 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 16
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -354,10 +367,10 @@ TextureImporter:
         serializedVersion: 2
         x: 32
         y: 16
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -376,10 +389,10 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 16
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -398,10 +411,10 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 16
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -420,10 +433,10 @@ TextureImporter:
         serializedVersion: 2
         x: 80
         y: 16
-        width: 15
-        height: 14
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -440,12 +453,12 @@ TextureImporter:
       name: Frog_13
       rect:
         serializedVersion: 2
-        x: 95
-        y: 15
-        width: 17
+        x: 96
+        y: 16
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,12 +475,12 @@ TextureImporter:
       name: Frog_14
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 13
-        height: 13
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -484,12 +497,12 @@ TextureImporter:
       name: Frog_15
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1
-        width: 13
-        height: 13
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -506,12 +519,12 @@ TextureImporter:
       name: Frog_16
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
-        width: 13
-        height: 12
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -528,12 +541,12 @@ TextureImporter:
       name: Frog_17
       rect:
         serializedVersion: 2
-        x: 49
-        y: 1
-        width: 13
-        height: 12
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -550,7 +563,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8d0a5d14134b8c840bc76528dd3e9ed2
     internalID: 0
     vertices: []
     indices: 
@@ -558,7 +571,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Frog_0: 2820143329777312509
       Frog_1: -1081280975163990012

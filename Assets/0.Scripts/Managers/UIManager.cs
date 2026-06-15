@@ -8,7 +8,7 @@ public enum UIType
 {
 	None, Loading, Title, Option, Movable, InsideOption, Info, Inside, GameQuit, 
 	StatPage, InventoryPage, CharacterPage, MapPage, SavePage, SettingPage,
-	ItemHoverInfo, ItemClickInfo, ActionHoverInfo, ActionClickInfo, 
+	ItemHoverInfo, ItemClickInfo, ActionHoverInfo, ActionClickInfo, ItemCursorSlot,
     _Length
 }
 
@@ -41,6 +41,7 @@ public class UIManager : ManagerBase
 	public Canvas MainCanvas => _mainCanvas;
 
 	UIBase _movableScreen;
+	RectTransform overlayTransform;
 	RectTransform switcherTransform;
 	RectTransform createdTransform;
 	RectTransform changerTransform;
@@ -105,7 +106,11 @@ public class UIManager : ManagerBase
         changerTransform = CreateFullScreen("ScreenChanger");
 		changerTransform.SetAsLastSibling();
 
-		for (ScreenChangeType currentChanger = (ScreenChangeType)1;
+		overlayTransform = CreateFullScreen("OverlayTransform");
+		overlayTransform.SetAsLastSibling();
+
+
+        for (ScreenChangeType currentChanger = (ScreenChangeType)1;
 			currentChanger < ScreenChangeType._Length;
 			currentChanger++)
 		{
@@ -142,8 +147,12 @@ public class UIManager : ManagerBase
 			_raycaster = null;
 		}
 	}
+    public UIBase ClaimOverlay(UIType wantType, string wantName)
+    {
+		return CreateUI(wantType, wantName, overlayTransform ?? MainCanvas?.transform);
+    }
 
-	protected UIBase CreateUI(UIType wantType, string wantName, Transform parent)
+    protected UIBase CreateUI(UIType wantType, string wantName, Transform parent)
 	{
 		GameObject instance = ObjectManager.CreateObject(wantName, parent);
 		UIBase result = instance?.GetComponent<UIBase>();
