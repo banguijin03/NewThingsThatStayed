@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
@@ -24,9 +25,12 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    readonly string[] itemList = {"LesserHealPotion", "CookingBook", "DesignBook", "EnerggyBook"};
+
     public void HealPotionPlus(int amount) 
     {
-        ItemContainer potion = DataManager.LoadDataFile<ItemContainer>("LesserHealPotion");
+        int index = UnityEngine.Random.Range(0, itemList.Length);
+        ItemContainer potion = DataManager.LoadDataFile<ItemContainer>(itemList[index]);
         AddItem(potion, amount);
     }
     public void HealPotionMinus(int amount)
@@ -37,10 +41,79 @@ public class Inventory : MonoBehaviour
     
     public bool IsEmpty(ItemSlot target) => target?.GetIsEmpty() ?? false;
 
-    public void Sort(System.Comparison<ItemContainer> Method)
+    public void Sort(System.Comparison<ItemSlot> Method)
     {
+        int totalLength = slots.Length;
+        if (slots is null || slots.Length <= 1) return;
+        int width = slots.GetLength(1);
 
+        int lastFinder = totalLength - 1;
+        while (lastFinder > 0)
+        {
+            int currentFinder = -1;
+            for (int i = 0; i < lastFinder - 1; i++)
+            {
+                ItemSlot left = GetSlot(i, width);
+                ItemSlot right = GetSlot(i + 1, width);
+                int comparisonResult = Method(left, right);
+
+                if (comparisonResult < 0)
+                {
+                    currentFinder = i;
+                    left.ExchangeItem(right);
+                }
+            }
+            lastFinder = currentFinder;
+        }
+        foreach(ItemSlot currentSlot in GetAllSlot())
+        {
+            currentSlot?.NoticeChanged();
+        }
     }
+
+    int ItemTypeComparison(ItemSlot left, ItemSlot right)
+    {
+        int result;
+        if (ItemExistComparison(left, right, out result)) return result;
+
+        ItemContainer leftItem  = left.GetItem();
+        ItemContainer rightItem = right.GetItem();
+
+        result = leftItem.CompareByType(rightItem);
+        if(result!=0) return result;
+        result = left.GetStack() - right.GetStack();
+        return result;
+    }
+    int? ItemExistTypeComparison(ItemSlot left, ItemSlot right)
+    {
+        if (left is null) 
+        {
+            if (right is null) return 0;
+            else return -1;
+        }
+        if (right is null)
+        {
+            return 1;
+        }
+        ItemContainer leftItem = left.GetItem();
+        ItemContainer rightItem = right.GetItem();
+        if (!leftItem)
+        {
+            if (!rightItem) return 0;
+            else return -1;
+        }
+        if (!rightItem) return 1;
+
+        return null;
+    }
+
+    bool ItemExistComparison(ItemSlot left, ItemSlot right, out int result)
+    {
+        int? calculated = ItemExistTypeComparison(left, right);
+        result = calculated ?? 0;
+        return calculated.HasValue;
+    }
+    public void SortByType() => Sort(ItemTypeComparison);
 
     public void AutoQuickInsert(Inventory other)
     {
@@ -71,14 +144,40 @@ public class Inventory : MonoBehaviour
 
     public int CountItem(ItemContainer wantItem)
     {
-        return default;
+        if (!wantItem) return 0;
+
+        int result = 0;
+
+        foreach (ItemSlot currentSlot in FindFirstItem(wantItem))
+        {
+            result += currentSlot.GetStack();
+        }
+        return result;
     }
     public int CountItem(ItemContainer wantItem, out List<ItemSlot> returnSlots)
     {
-        returnSlots = default;
+        returnSlots = new();
+        if (!wantItem) return 0;
+        
+        int result = 0;
+
+        foreach (ItemSlot currentSlot in FindFirstItem(wantItem))
+        {
+            returnSlots.Add(currentSlot);
+            result += currentSlot.GetStack();
+        }
+
         return default;
     }
 
+    public ItemSlot GetSlot(int index, int width) => slots[index / width, index % width];
+
+    public ItemSlot GetSlot(int index)
+    {
+        if (slots is null || index < 0 || slots.Length == 0 || slots.Length <= index) return null;
+        int width = slots.GetLength(1);
+        return slots[index / width, (index % width - 1)];
+    }
     public IEnumerable<ItemSlot> GetAllSlot()
     {
         int height = slots.GetLength(0);
@@ -233,6 +332,20 @@ public class Inventory : MonoBehaviour
     public void MoveItem(int startRow, int startColumn, Inventory targetInventory, int targetRow, int targetColumn, int amount = -1)
     {
 
+    }
+
+    public void MergeItem(ItemContainer wantItem)
+    {
+        if (!wantItem) return;
+        if (wantItem.maxStack <= 1) return;
+        int totalCount = CountItem(wantItem, out List<ItemSlot> containSlots);
+
+        if (containSlots is null || containSlots.Count <= 1) return;
+        for(int i = 0; i < containSlots.Count; i++)
+        {
+            ItemSlot currentSlot = containSlots[i];
+            if (currentSlot.GetIsMax()) continue;
+        }
     }
 
 

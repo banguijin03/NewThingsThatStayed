@@ -63,4 +63,12 @@ public class UI_InventoryWindow : OpenableUIBase
         targetInventory.Initialize();
         ConnectInventory(targetInventory);
     }
+
+    public void ClaimSort()
+    {
+        if (targetInventory)
+        {
+            targetInventory.SortByType();
+        }
+    }
 }

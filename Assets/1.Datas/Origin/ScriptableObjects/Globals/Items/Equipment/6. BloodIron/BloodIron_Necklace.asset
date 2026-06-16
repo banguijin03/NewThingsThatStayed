@@ -15,5 +15,6 @@ MonoBehaviour:
   icon: {fileID: 0}
   displayName: "\uD608\uCCA0 \uBAA9\uAC78\uC774"
   explain: 
+  id: 40
   type: 2
   maxStack: 1

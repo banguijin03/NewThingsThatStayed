@@ -10,6 +10,6 @@ public class Item_Consumable : ItemContainer
 
     public virtual void OnUse(CharacterBase from, Vector3 position)
     {
-
+        
     }
 }
