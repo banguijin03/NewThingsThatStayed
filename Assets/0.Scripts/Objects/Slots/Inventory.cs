@@ -43,6 +43,7 @@ public class Inventory : MonoBehaviour
 
     public void Sort(System.Comparison<ItemSlot> Method)
     {
+        MergeAll();
         int totalLength = slots.Length;
         if (slots is null || slots.Length <= 1) return;
         int width = slots.GetLength(1);
@@ -171,7 +172,6 @@ public class Inventory : MonoBehaviour
     }
 
     public ItemSlot GetSlot(int index, int width) => slots[index / width, index % width];
-
     public ItemSlot GetSlot(int index)
     {
         if (slots is null || index < 0 || slots.Length == 0 || slots.Length <= index) return null;
@@ -220,6 +220,39 @@ public class Inventory : MonoBehaviour
         {
             if (pred(currentSlot)) yield return currentSlot;
         }
+    }
+    public IEnumerable<ItemContainer> GetAllItem()
+    {
+        HashSet<ItemContainer> usedItem = new();
+        foreach (ItemSlot currentSlot in GetAllSlot())
+        {
+            ItemContainer currentItem = currentSlot.GetItem();
+
+            if (!currentItem) continue;
+            if (!usedItem.Add(currentItem)) continue;
+
+            yield return currentItem;
+        }
+    }
+    public Dictionary<ItemContainer, List<ItemSlot>> GetAllItemList()
+    {
+        Dictionary<ItemContainer, List<ItemSlot>> result = new();
+
+        foreach(ItemSlot currentSlot in GetAllSlot())
+        {
+            ItemContainer currentItem = currentSlot.GetItem();
+            if (!currentItem) continue;
+            if(result.TryGetValue(currentItem, out List<ItemSlot> currentList))
+            {
+                currentList.Add(currentSlot);
+            }
+            else
+            {
+                result.Add(currentItem, new() { currentSlot });
+            }
+        }
+
+        return result;
     }
 
     public ItemSlot FindItem(ItemContainer target)
@@ -334,17 +367,36 @@ public class Inventory : MonoBehaviour
 
     }
 
+    public void MergeAll()
+    {
+        foreach(ItemContainer currentItem in GetAllItem())
+        {
+            MergeItem(currentItem);
+        }
+    }
     public void MergeItem(ItemContainer wantItem)
     {
         if (!wantItem) return;
-        if (wantItem.maxStack <= 1) return;
+        int maxStack = wantItem.maxStack;
+        if (maxStack <= 1) return;
         int totalCount = CountItem(wantItem, out List<ItemSlot> containSlots);
+        if (totalCount <= 1 ) return;
+        if (containSlots is null) return;
 
-        if (containSlots is null || containSlots.Count <= 1) return;
-        for(int i = 0; i < containSlots.Count; i++)
+        int slotCount = containSlots.Count;
+        if (totalCount >= slotCount * maxStack || slotCount <= 1) return;
+
+        int finalSlot = slotCount - 1;
+        for(int i = 0; i < slotCount; i++)
         {
             ItemSlot currentSlot = containSlots[i];
-            if (currentSlot.GetIsMax()) continue;
+            for(int j = finalSlot; j>i; j--)
+            {
+                if (currentSlot.GetIsMax()) break;
+                ItemSlot targetSlot = containSlots[j];
+                targetSlot.GiveItem(currentSlot);
+                if (targetSlot.GetIsEmpty()) finalSlot--; 
+            }
         }
     }
 
