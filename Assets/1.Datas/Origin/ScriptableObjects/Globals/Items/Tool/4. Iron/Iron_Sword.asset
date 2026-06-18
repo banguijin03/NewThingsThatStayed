@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43196419c61371d478fdbe7bb6d8cae5, type: 3}
-  m_Name: Wood_pickax
+  m_Name: Iron_Sword
   m_EditorClassIdentifier: Assembly-CSharp::Item_Tool
-  icon: {fileID: -1405086655, guid: 37f7bd4595263f24bb18f79b6a30ed3e, type: 3}
-  displayName: "\uB098\uBB34 \uACE1\uAD2D\uC774"
+  icon: {fileID: 0}
+  displayName: "\uCCA0 \uCE7C"
   explain: 
   id: 0
   type: 0

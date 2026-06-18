@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43196419c61371d478fdbe7bb6d8cae5, type: 3}
-  m_Name: Copper_Hoe
+  m_Name: Iron_WateringCan
   m_EditorClassIdentifier: Assembly-CSharp::Item_Tool
-  icon: {fileID: -841342699, guid: 2b74e79edd3d30f4695671d646895d58, type: 3}
-  displayName: "\uAD6C\uB9AC \uAD2D\uC774"
+  icon: {fileID: 0}
+  displayName: "\uCCA0 \uBB3C\uBFCC\uB9AC\uAC1C"
   explain: 
   id: 0
   type: 0
