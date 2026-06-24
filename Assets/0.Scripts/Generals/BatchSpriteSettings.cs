@@ -1,0 +1,44 @@
+using UnityEditor;
+using UnityEngine;
+
+public class BatchSpriteSettings
+{
+    [MenuItem("Tools/Set Character Sprites")]
+    public static void SetCharacterSprites()
+    {
+        string[] guids = AssetDatabase.FindAssets("t:Texture2D");
+
+        int count = 0;
+
+        foreach (string guid in guids)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guid);
+
+            // 네 캐릭터 폴더만 처리
+            if (!path.Contains("Character"))
+                continue;
+
+            TextureImporter importer =
+                AssetImporter.GetAtPath(path) as TextureImporter;
+
+            if (importer == null)
+                continue;
+
+            importer.textureType = TextureImporterType.Sprite;
+            importer.spriteImportMode = SpriteImportMode.Multiple;
+
+            importer.filterMode = FilterMode.Point;
+            importer.textureCompression =
+                TextureImporterCompression.Uncompressed;
+
+            importer.spritePixelsPerUnit = 32;
+
+            EditorUtility.SetDirty(importer);
+            importer.SaveAndReimport();
+
+            count++;
+        }
+
+        Debug.Log($"완료 : {count}개");
+    }
+}

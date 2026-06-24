@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8df09f702b093d744a582a76240920ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 43196419c61371d478fdbe7bb6d8cae5, type: 3}
   m_Name: Pot
-  m_EditorClassIdentifier: Assembly-CSharp::ItemContainer
-  icon: {fileID: -2989676266896671286, guid: a38fc81a49d6668498ddc5bb86a4de62, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Item_Tool
+  icon: {fileID: 5875962967401670223, guid: a38fc81a49d6668498ddc5bb86a4de62, type: 3}
   displayName: "\uB0C4\uBE44"
   explain: 
-  type: 9
+  id: 0
+  type: 0
   maxStack: 0
-  weight: 0
