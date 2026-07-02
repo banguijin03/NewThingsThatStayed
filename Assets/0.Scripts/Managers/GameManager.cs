@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
     UIManager _ui;
     public UIManager UI => _ui;
 
+    DBManager _db;
+    public DBManager DB => _db;
+
     DataManager _data;
     public DataManager Data => _data;
 
@@ -90,6 +93,7 @@ public class GameManager : MonoBehaviour
     {
         int totalLoadCount = 0;
         totalLoadCount += CreateManager(ref _ui).LoadCount;
+        totalLoadCount += CreateManager(ref _db).LoadCount;
         totalLoadCount += CreateManager(ref _data).LoadCount;
         totalLoadCount += CreateManager(ref _objectM).LoadCount;
         totalLoadCount += CreateManager(ref _save).LoadCount;
@@ -104,6 +108,8 @@ public class GameManager : MonoBehaviour
         IProgress<int> loadingProgress = loadingUI as IProgress<int>;
 
         loadingProgress?.Set(0, totalLoadCount);
+        yield return DB.Connect(this);
+        loadingProgress?.AddCurrent(1);
         yield return Data.Connect(this);
         loadingProgress?.AddCurrent(1);
         yield return ObjectM.Connect(this);
@@ -141,6 +147,7 @@ public class GameManager : MonoBehaviour
         Language?.Disconnect();
         //세팅		SettingManager
         Setting?.Disconnect();
+
         //세이브		SaveManager
         Save?.Disconnect();
         //카메라		CameraManager
@@ -149,6 +156,8 @@ public class GameManager : MonoBehaviour
         UI?.Disconnect();
         //데이터파일 DataManager
         Data?.Disconnect();
+        //데이터베이스 DBManager
+        DB?.Disconnect();
     }
     ManagerType CreateManager<ManagerType>(ref ManagerType targetVariable) where ManagerType : ManagerBase
     {

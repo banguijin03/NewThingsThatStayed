@@ -1,4 +1,4 @@
-using UnityEditor;
+/*using UnityEditor;
 using UnityEngine;
 
 public class BatchSpriteSettings
@@ -14,7 +14,6 @@ public class BatchSpriteSettings
         {
             string path = AssetDatabase.GUIDToAssetPath(guid);
 
-            // 네 캐릭터 폴더만 처리
             if (!path.Contains("Character"))
                 continue;
 
@@ -41,4 +40,4 @@ public class BatchSpriteSettings
 
         Debug.Log($"완료 : {count}개");
     }
-}
+}*/
